@@ -33,6 +33,17 @@ msgid ""
 "\n"
 "See "
 msgstr ""
+"\n"
+"Les images doivent correspondre à la version <strong>exacte</strong> de "
+"la release. Par exemple, n'ajoutez pas l'image du CD à la version LP.\n"
+"Les formats d'images acceptés sont .jpg, .gif, .png, et .bmp.\n"
+"Les images doivent avoir une résolution comprise entre %(lower_px_limit)s "
+"et %(upper_px_limit)s, et doivent être inférieures à "
+"%(upper_byte_limit)s.\n"
+"Veuillez s'il vous plait à ne pas uploader d'images en filigrane, ou "
+"d'images de pochettes génériques."
+"\n"
+"Voir "
 
 #, python-format
 msgid ""
@@ -48,17 +59,27 @@ msgid ""
 "for\n"
 "possible reactivation."
 msgstr ""
+"\n"
+"Evaluation complice: il va à l'encontre des règles de fonctionnement de "
+"Discogs d'utiliser son propre compte utilisateur ou tout\n"
+"compte secondaire pour laisser une fausse évaluation positive dans le but "
+"de stimuler votre note d'évaluation générale (%(url)s).\n"
+"Toute activité de ce type entraînera la suspension de votre compte "
+"utilisateur. Contacter notre équipe d'aide %(url_2)s) et\n"
+"confirmer que vous comprenez la violation avant qu'ils ne puissent "
+"examiner votre compte pour\n"
+"une possible réactivation."
 
 msgid " (not including shipping)"
-msgstr ""
+msgstr " (n'inclut pas l'expédition)"
 
 #, python-format
 msgid "\"%s\" is available."
-msgstr ""
+msgstr "\"%s\" est disponible."
 
 #, python-format
 msgid "\"Search %(seller)s's store"
-msgstr ""
+msgstr "\"Chercher dans la boutique de %(seller)s"
 
 #, python-format
 msgid ""
@@ -66,34 +87,41 @@ msgid ""
 "which you submitted or contributed to.\n"
 "%(objurl)s\n"
 msgstr ""
+"%(action)s de %(objname)s\n"
+"auquel vous avez soumis ou contribué.\n"
+"%(objurl)s\n"
 
 #, python-format
 msgid ""
 "%(action)s on <a href=\"%(objurl)s\">%(objname)s</a>\n"
 "which you submitted or contributed to."
 msgstr ""
+"%(action)s de <a href=\"%(objurl)s\">%(objname)s</a>\n"
+"auquel vous avez soumis ou contribué."
 
 #, python-format
 msgid "%(count)s message has been ignored"
 msgid_plural "%(count)s messages have been ignored"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s message a été ignoré"
+msgstr[1] "%(count)s messages ont été ignoré"
 
 #, python-format
 msgid "%(inviter)s has invited you to join %(topic_name)s"
-msgstr ""
+msgstr "%(inviter)s vous a invité à rejoindre %(topic_name)s"
 
 #, python-format
 msgid ""
 "%(link)sLog In%(link_close)s or %(button)sCreate an "
 "Account%(button_close)s to list this item."
 msgstr ""
+"%(link)sS'identifier%(link_close)s ou %(button)sCréer un "
+"Compte%(button_close)s pour lister cet élément."
 
 #, python-format
 msgid "%(n)d Purchase Awaiting Feedback"
 msgid_plural "%(n)d Purchases Awaiting Feedback"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)d achat en attente d'évaluation"
+msgstr[1] "%(n)d achats en attente d'évaluation"
 
 #, python-format
 msgid ""
@@ -103,45 +131,49 @@ msgid_plural ""
 "%(n)d items have been removed from your cart because they are no longer "
 "available"
 msgstr[0] ""
+"%(n)d élément a été retiré de votre panier car il n'est plus "
+"disponible"
 msgstr[1] ""
+"%(n)d éléments ont été retiré de votre panier car ils ne sont plus "
+"disponibles"
 
 #, python-format
 msgid "%(n)d new item For Sale in your Wantlist"
 msgid_plural "%(n)d new items For Sale in your Wantlist"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)d nouvel élément En Vente dans votre Wantlist"
+msgstr[1] "%(n)d nouveaux éléments En Vente dans votre Wantlist"
 
 #, python-format
 msgid "%(n)s For Sale"
-msgstr ""
+msgstr "%(n)s En Vente"
 
 #, python-format
 msgid "%(n)s From My Wantlist"
-msgstr ""
+msgstr "%(n)s de ma Wantlist"
 
 #, python-format
 msgid "%(n)s Item"
 msgid_plural "%(n)s Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s Elément"
+msgstr[1] "%(n)s Eléments"
 
 #, python-format
 msgid "%(n)s Order Awaiting Feedback"
 msgid_plural "%(n)s Orders Awaiting Feedback"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s Commande en attente d'évaluation"
+msgstr[1] "%(n)s Commandes en attente d'évaluation"
 
 #, python-format
 msgid "%(n)s comment"
 msgid_plural "%(n)s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s commentaire"
+msgstr[1] "%(n)s commentaires"
 
 #, python-format
 msgid "%(n)s message has been ignored"
 msgid_plural "%(n)s messages have been ignored"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s message a été ignoré"
+msgstr[1] "%(n)s messages ont été ignoré"
 
 #, python-format
 msgid "%(n)s negative rating from buyers"
