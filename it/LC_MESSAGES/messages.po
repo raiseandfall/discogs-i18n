@@ -29,7 +29,14 @@ msgid ""
 "Please don't upload images with watermarks, or images of generic sleeves."
 "\n"
 "See "
-msgstr ""
+msgstr "Le immagini devono corrispondere alla versione <strong>esatta</strong>"
+"del prodotto. Per esempio, non mettete l'immagine del CD al posto di quella del Vinile.\n"
+"I formati accettati sono: .jpg, .gif, .png, e .bmp.\n"
+"Le dimensioni delle immagini devono essere tra %(lower_px_limit)s e %(upper_px_limit)s,"
+"ed essere meno di %(upper_byte_limit)s.\n"
+"Per favore non caricate immagini con watermarks, o immagini con custodie generiche."
+"\n"
+"Vedi"
 
 #, python-format
 msgid ""
@@ -44,18 +51,28 @@ msgid ""
 "confirm you understand the violation before they can review the account "
 "for\n"
 "possible reactivation."
-msgstr ""
+msgstr "\n"
+"Feedback falso: È contro le linee guida di Discogs utilizzare il proprio account "
+"o qualsiasi altro\n"
+"account secondario per lasciare un falso feedback positivo per umentare il vostro\n"
+"punteggio di feedback (%(url)s).\n"
+"Se di recente avete fatto questa operazione, il vostro account sarà "
+"sospeso\n"
+"di conseguenza. Contattate il nostro staff di supporto %(url_2)s) e\n"
+"confermate di aver capito la violazione prima di poter rivedere l'account "
+"per\n"
+"una possibile riattivazione."
 
 msgid " (not including shipping)"
-msgstr ""
+msgstr " (non include la spedizione)"
 
 #, python-format
 msgid "\"%s\" is available."
-msgstr ""
+msgstr "\"%s\" è disponibile."
 
 #, python-format
 msgid "\"Search %(seller)s's store"
-msgstr ""
+msgstr "Cerca nel negozio di %(seller)s"
 
 #, python-format
 msgid ""
@@ -63,34 +80,41 @@ msgid ""
 "which you submitted or contributed to.\n"
 "%(objurl)s\n"
 msgstr ""
+"%(action) su %(objname)s\n"
+"che hai inviato o contribuito.\n"
+"%(objurl)s\n"
 
 #, python-format
 msgid ""
 "%(action)s on <a href=\"%(objurl)s\">%(objname)s</a>\n"
 "which you submitted or contributed to."
 msgstr ""
+"%(action)s su <a href=\"%(objurl)s\">%(objname)s</a>\n"
+"che hai inviato o contribuito."
 
 #, python-format
 msgid "%(count)s message has been ignored"
 msgid_plural "%(count)s messages have been ignored"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s il messaggio è stato ignorato"
+msgstr[1] "%(count)s i messaggi sono stati ignorati"
 
 #, python-format
 msgid "%(inviter)s has invited you to join %(topic_name)s"
-msgstr ""
+msgstr "%(inviter)s ti ha invitato a seguire %(topic_name)s"
 
 #, python-format
 msgid ""
 "%(link)sLog In%(link_close)s or %(button)sCreate an "
 "Account%(button_close)s to list this item."
 msgstr ""
+"%(link)sAccedi%(link_close)s o %(button)sCrea un "
+"Account%(button_close)s per elencare questo articolo."
 
 #, python-format
 msgid "%(n)d Purchase Awaiting Feedback"
 msgid_plural "%(n)d Purchases Awaiting Feedback"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)d Acquisto in attesa di Feedback"
+msgstr[1] "%(n)d Acquisti in attesa di Feedback"
 
 #, python-format
 msgid ""
@@ -100,127 +124,131 @@ msgid_plural ""
 "%(n)d items have been removed from your cart because they are no longer "
 "available"
 msgstr[0] ""
+"%(n)d questo articolo è stato rimosso dal vostro carrello perché non è più"
+"disponibile"
 msgstr[1] ""
+"%(n)d questi articoli sono stati rimossi dal vostro carrello perché non sono più"
+"disponibili"
 
 #, python-format
 msgid "%(n)d new item For Sale in your Wantlist"
 msgid_plural "%(n)d new items For Sale in your Wantlist"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)d nuovo articolo in vendita dalla tua Lista Desideri"
+msgstr[1] "%(n)d nuovi articoli in vendita dalla tua Lista Desideri"
 
 #, python-format
 msgid "%(n)s For Sale"
-msgstr ""
+msgstr "%(n)s in vendita"
 
 #, python-format
 msgid "%(n)s From My Wantlist"
-msgstr ""
+msgstr "%(n)s dalla mia Lista Desideri"
 
 #, python-format
 msgid "%(n)s Item"
 msgid_plural "%(n)s Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s Articolo"
+msgstr[1] "%(n)s Articoli"
 
 #, python-format
 msgid "%(n)s Order Awaiting Feedback"
 msgid_plural "%(n)s Orders Awaiting Feedback"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s Ordine in attesa di Feedback"
+msgstr[1] "%(n)s Ordini in attesa di Feedback"
 
 #, python-format
 msgid "%(n)s comment"
 msgid_plural "%(n)s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s commento"
+msgstr[1] "%(n)s commenti"
 
 #, python-format
 msgid "%(n)s message has been ignored"
 msgid_plural "%(n)s messages have been ignored"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s il messaggio è stato ignorato"
+msgstr[1] "%(n)s i messaggi sono stati ignorati"
 
 #, python-format
 msgid "%(n)s negative rating from buyers"
 msgid_plural "%(n)s negative ratings from buyers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione negativa da parte degli acquirenti"
+msgstr[1] "%(n)s valutazioni negative da parte degli acquirenti"
 
 #, python-format
 msgid "%(n)s negative rating from sellers"
 msgid_plural "%(n)s negative ratings from sellers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione negativa da parte dei venditori"
+msgstr[1] "%(n)s valutazioni negative da parte dei venditori"
 
 #, python-format
 msgid "%(n)s neutral rating from buyers"
 msgid_plural "%(n)s neutral ratings from buyers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione neutrale da parte degli acquirenti"
+msgstr[1] "%(n)s valutazioni neutrali da parte degli acquirenti"
 
 #, python-format
 msgid "%(n)s neutral rating from sellers"
 msgid_plural "%(n)s neutral ratings from sellers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione neutrale da parte dei venditori"
+msgstr[1] "%(n)s valutazioni neutrali da parte dei venditori"
 
 #, python-format
 msgid "%(n)s of %(total)s discussion"
 msgid_plural "%(n)s of %(total)s discussions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s della %(total)s discussione"
+msgstr[1] "%(n)s delle %(total)s discussioni"
 
 #, python-format
 msgid "%(n)s other versions for sale."
-msgstr ""
+msgstr "%(n)s oltra versione in vendita."
 
 #, python-format
 msgid "%(n)s positive rating from buyers"
 msgid_plural "%(n)s positive ratings from buyers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione positiva da parte degli acquirenti"
+msgstr[1] "%(n)s valutazioni positive da parte degli acquirenti"
 
 #, python-format
 msgid "%(n)s positive rating from sellers"
 msgid_plural "%(n)s positive ratings from sellers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione positiva da parte dei venditori"
+msgstr[1] "%(n)s valutazioni positive da parte dei venditori"
 
 #, python-format
 msgid "%(n)s previous order"
 msgid_plural "%(n)s previous orders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s ordine precedente"
+msgstr[1] "%(n)s ordini precedenti"
 
 #, python-format
 msgid "%(n)s rating"
 msgid_plural "%(n)s ratings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s valutazione"
+msgstr[1] "%(n)s valutazioni"
 
 #, python-format
 msgid "%(name)s will be added to the Database."
-msgstr ""
+msgstr "%(name)s sarà aggiunto al Database"
 
 #, python-format
 msgid "%(num_found)s found when searching for \"%(query)s\""
-msgstr ""
+msgstr "%(num_found)s risultati sulla ricerca di \"%(query)s\""
 
 #, python-format
 msgid "%(num_want)s want, %(num_have)s have"
-msgstr ""
+msgstr "%(num_want)s lo vogliono, %(num_have)s lo posseggono"
 
 #, python-format
 msgid "%(part)s of %(total)s"
-msgstr ""
+msgstr "%(part)s del %(total)s"
 
 #, python-format
 msgid "%(person)s's feedback as a buyer."
-msgstr ""
+msgstr "Feedback di %(person)s come acquirente"
 
 #, python-format
 msgid "%(person)s's feedback as a seller."
-msgstr ""
+msgstr "Feedback di %(person)s come venditore"
 
 #, python-format
 msgid ""
@@ -238,34 +266,47 @@ msgid ""
 "%(first_release)s will become the new key release.\n"
 "Release ID %(second_release)s will be set to Draft status.\n"
 msgstr ""
+"%(reason)s\n"
+"\n"
+"Se questa unione è votata attraversa, la risultante release avrà Release "
+"ID %(first_release)s\n"
+"I dati provenienti dalla Release ID %(accurate_release)s saranno usati.\n"
+"Le immagini provenienti dalla Release ID %(second_release)s saranno copiate sulla Release ID "
+"%(first_release)s come immagini disabilitate.\n"
+"Gli articoli in vendita, le collezioni, le liste desideri, le liste, i commenti, e le valutazioni "
+"riferite a Release ID %(second_release)s saranno spostate a Release ID "
+"%(first_release)s.\n"
+"Se Release ID %(second_release)s è una key release, Release ID "
+"%(first_release)s diventerà la nuova key release.\n"
+"Release ID %(second_release)s sarà impostata sullo stato Progetto.\n"
 
 #, python-format
 msgid "%(release)s is no longer available."
-msgstr ""
+msgstr "%(release)s non è più disponibile."
 
 #, python-format
 msgid "%(title)s was removed"
-msgstr ""
+msgstr "%(title)s è stato rimosso"
 
 #, python-format
 msgid "%(title)s was requested to be removed"
-msgstr ""
+msgstr "%(title)s è stata fatta richiesta di essere rimosso"
 
 #, python-format
 msgid "%(username)s has accumulated %(points)d rank point."
 msgid_plural "%(username)s has accumulated %(points)d rank points."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(username)s ha accumulato %(points)d punto in classifica."
+msgstr[1] "%(username)s ha accumulato %(points)d punti in classifica."
 
 #, python-format
 msgid "%(username)s has collected %(n)d release."
 msgid_plural "%(username)s has collected %(n)d releases."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(username)s ha collezionato %(n)d versione."
+msgstr[1] "%(username)s ha collezionato %(n)d versioni."
 
 #, python-format
 msgid "%(username)s has not created any lists yet."
-msgstr ""
+msgstr "%(username)s non ha ancora creato nessuna lista."
 
 #, python-format
 msgid ""
@@ -275,23 +316,27 @@ msgid_plural ""
 "%(username)s has received %(n)d ratings for sales with an average "
 "feedback rating of %(percentage)s%%."
 msgstr[0] ""
+"%(username)s ha ricevuto %(n)d valutazione per vendite con una media feedback"
+" di %(percentage)s%%."
 msgstr[1] ""
+"%(username)s ha ricevuto %(n)d valutazioni per vendite con una media "
+"feedback di %(percentage)s%%."
 
 #, python-format
 msgid "%(violation_count)s of your Marketplace listings have been removed."
-msgstr ""
+msgstr "%(violation_count)s delle vostre inserzioni Marketplace sono state rimosse."
 
 #, python-format
 msgid "%(x)s available from %(y)s seller"
 msgid_plural "%(x)s available from %(y)s sellers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(x)s è disponibile da %(y)s venditore"
+msgstr[1] "%(x)s è disponibile da %(y)s venditori"
 
 #, python-format
 msgid "%d Week Ago"
 msgid_plural "%d Weeks Ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d settimana fa"
+msgstr[1] "%d settimane fa"
 
 #, python-format
 msgid ""
@@ -301,72 +346,78 @@ msgid_plural ""
 "%d items copied and marked \"For Sale\". The items will be added to our "
 "browse/search pages within %d minutes."
 msgstr[0] ""
+"%d articolo copiato e segnato \"In Vendita\". L'articolo sarà aggiunto alla nostra "
+"pagina di ricerca entro %d minuti."
 msgstr[1] ""
+"%d articoli copiati e segnati \"In Vendita\". Gli articoli saranno aggiunti alla nostra "
+"pagina di ricerca entro %d minuti."
 
 #, python-format
 msgid "%d month"
-msgstr ""
+msgstr "mese"
 
 #, python-format
 msgid "%d months"
-msgstr ""
+msgstr "mesi"
 
 #, python-format
 msgid "%d to %d"
-msgstr ""
+msgstr "%d a %d"
 
 #, python-format
 msgid "%d week"
-msgstr ""
+msgstr "%d settimana"
 
 #, python-format
 msgid "%d year"
-msgstr ""
+msgstr "%d anno"
 
 #, python-format
 msgid "%s Month Ago"
 msgid_plural "%s Months Ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s mese fa"
+msgstr[1] "%s mesi fa"
 
 #, python-format
 msgid "%s converted this message to a support request."
-msgstr ""
+msgstr "%s ha convertito questo messaggio in una richiesta di supporto."
 
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s è stato cancellato."
 
 #, python-format
 msgid "%s have, %s want"
-msgstr ""
+msgstr "%s lo posseggono, %s lo vogliono"
 
 #, python-format
 msgid "%s is not a member of this group."
-msgstr ""
+msgstr "%s non è un membro di questo gruppo."
 
 #, python-format
 msgid "%s was added to your friends list."
-msgstr ""
+msgstr "%s è stato aggiunto alla tua lista di amici."
 
 #, python-format
 msgid "%s's Contributions"
-msgstr ""
+msgstr "Contributi di %s"
 
 #, python-format
 msgid "%s's Wantlist"
-msgstr ""
+msgstr "Lista Desideri di %s"
 
 #, python-format
 msgid "(%(n)s additional item not shown)"
 msgid_plural "(%(n)s additional items not shown)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%(n)s articolo addizionale non mostrato)"
+msgstr[1] "(%(n)s articoli addizionali non mostrati)"
 
 msgid ""
 "* On any artist or label page, click on the 'History / Edit' link to vote"
 " on the artist or label profile"
 msgstr ""
+"* In qualsiasi pagina dell'artista o dell'etichetta, fare clic sul link 'Storia/Modifica' per votare"
+" l'artista o l'etichetta"
 
 msgid ""
 "* On any artist or label page, you can click on the 'x submissions "
