@@ -4624,7 +4624,7 @@ msgid ""
 "To avoid having your Marketplace inventory removed, please visit this "
 "page while logged in:"
 msgstr ""
-"Cela fait presque %(month_num) mois que nous ne vous avons plus vu sur "
+"Cela fait presque %(month_num)s mois que nous ne vous avons plus vu sur "
 "Discogs. Pour éviter que votre inventaire soit retiré de la Marketplace, "
 "merci de vous rendre sur cette page après vous être connecté :"
 
