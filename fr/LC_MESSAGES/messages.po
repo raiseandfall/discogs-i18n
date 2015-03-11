@@ -4606,7 +4606,7 @@ msgstr "Quelques minutes sont nécessaires pour que vos changements apparaissent
 
 #: 
 msgid "It's been almost %(month_num)s months since we last saw you on Discogs. To avoid having your Marketplace inventory removed, please visit this page while logged in:"
-msgstr "Cela fait presque % (month_num) mois que nous ne vous avons plus vu sur Discogs. Pour éviter que votre inventaire soit retiré de la Marketplace, merci de vous rendre sur cette page après vous être connecté :"
+msgstr "Cela fait presque %(month_num)s mois que nous ne vous avons plus vu sur Discogs. Pour éviter que votre inventaire soit retiré de la Marketplace, merci de vous rendre sur cette page après vous être connecté :"
 
 #: 
 msgid "It's easy to set up your own store with over 5,000,000 listings in our database."
