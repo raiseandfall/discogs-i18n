@@ -28,3 +28,4 @@ Translations for the Discogs website
 * Mop66
 * armak
 * msaizar
+* Zicchette
