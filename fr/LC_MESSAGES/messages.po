@@ -334,7 +334,7 @@ msgstr "* Mise à jour sur Mes articles en vente"
 
 #: 
 msgid "1. General Rules"
-msgstr "Règlement général"
+msgstr "1. Règlement général"
 
 #: 
 msgid "1. Log on to"
@@ -438,9 +438,8 @@ msgstr "<mark><strong>Votre compte sera définitivement supprimé.</strong></mar
 
 #: 
 msgid "<strong>Add</strong> new listings"
-msgstr "<strong>Ajouter</strong> de nouveaux listings.\n"
-"\n"
-""
+msgstr "<strong>Ajouter</strong> de nouveaux listings"
+
 
 #: 
 msgid "<strong>Admin Notice:</strong> Due to inactivity on this account, Home Page and Profile fields are not publicly visible."
@@ -460,7 +459,7 @@ msgstr "<strong>Changez</strong> les détails du listing"
 
 #: 
 msgid "<strong>Contribute</strong> to the largest, most accurate database of music."
-msgstr "<strong > Contribuer < / strong> à la plus grande et la plus précise base de données sur la musique."
+msgstr "<strong> Contribuer </strong> à la plus grande et la plus précise base de données sur la musique."
 
 #: 
 msgid "<strong>Delete</strong> listings"
@@ -476,7 +475,7 @@ msgstr "<strong>Discutez</strong> de musique sur l'un des forums dédiés les pl
 
 #: 
 msgid "<strong>Heads up!</strong> You have more than %(friend_limit)s friends. You'll only see shared activity from the first %(friend_limit)s."
-msgstr "<strong>Alerte ! </strong> Vous avez plus de %(friend_limit)s amis. Vous ne pourrez voir vos activités partagées seulement avec les premiers %(friend_limit)s amis."
+msgstr "<strong>Alerte !</strong> Vous avez plus de %(friend_limit)s amis. Vous ne pourrez voir vos activités partagées seulement avec les premiers %(friend_limit)s amis."
 
 #: 
 msgid "<strong>Important</strong>: All listings specified in your upload file will be marked <strong>For Sale</strong>, regardless of their current&nbsp;status."
@@ -594,8 +593,7 @@ msgstr "A propos de 360 Vinyl"
 
 #: 
 msgid "About Anthem Records"
-msgstr "A propos d'Anthem \n"
-"Records"
+msgstr "A propos d'Anthem"
 
 #: 
 msgid "About Discogs"
@@ -659,8 +657,7 @@ msgstr "Nom du compte"
 
 #: 
 msgid "Account Notifications"
-msgstr "Notifications du compte\n"
-""
+msgstr "Notifications du compte"
 
 #: 
 msgid "Account Verification"
@@ -2863,7 +2860,7 @@ msgstr "Commande sur Discogs #%(order_id)s à payer"
 
 #: 
 msgid "Discogs Order %(id)s"
-msgstr "Commande sur Discogs #%(id)s"
+msgstr "Commande sur Discogs %(id)s"
 
 #: 
 msgid "Discogs Secure Site"
@@ -4159,7 +4156,7 @@ msgstr "Si vous avez besoin d'aide, merci de vous reporter au sujet \"Base de do
 #: 
 #, fuzzy
 msgid "If you report a non-abusive image from this page, it <strong>will not</strong> be deleted or removed. Please use the <em>disable image</em> option on the previous page for all other incorrect or updated images."
-msgstr "Si vous signalez une image non abusive sur cette page, elle <strong> ne sera pas<\strong>  supprimée ou retirée. Merci d'utiliser l'option <em>désactiver l'image</em> sur la page précédente pour toute autre images incorrectes ou mises à jour par erreur."
+msgstr "Si vous signalez une image non abusive sur cette page, elle <strong> ne sera pas<\strong> supprimée ou retirée. Merci d'utiliser l'option <em>désactiver l'image</em> sur la page précédente pour toute autre images incorrectes ou mises à jour par erreur."
 
 #: 
 msgid "If you ship to every country, create a policy for the \"Entire World\" destination."
@@ -4606,7 +4603,7 @@ msgstr "Quelques minutes sont nécessaires pour que vos changements apparaissent
 
 #: 
 msgid "It's been almost %(month_num)s months since we last saw you on Discogs. To avoid having your Marketplace inventory removed, please visit this page while logged in:"
-msgstr "Cela fait presque % (month_num) mois que nous ne vous avons plus vu sur Discogs. Pour éviter que votre inventaire soit retiré de la Marketplace, merci de vous rendre sur cette page après vous être connecté :"
+msgstr "Cela fait presque %(month_num) mois que nous ne vous avons plus vu sur Discogs. Pour éviter que votre inventaire soit retiré de la Marketplace, merci de vous rendre sur cette page après vous être connecté :"
 
 #: 
 msgid "It's easy to set up your own store with over 5,000,000 listings in our database."
@@ -4744,11 +4741,11 @@ msgstr "Aller à la prochaine Proposition après avoir enregistré le commentair
 
 #: 
 msgid "Keep your feedback <strong>factual</strong> and avoid making personal remarks."
-msgstr "Rédigez des Evaluations <strong >factuelles</strong> et évitez les remarques personnelles."
+msgstr "Rédigez des Evaluations <strong>factuelles</strong> et évitez les remarques personnelles."
 
 #: 
 msgid "Keep your reply <strong>factual</strong> and do not make personal remarks."
-msgstr "Rédigez des évaluations <strong >factuelles</strong> et évitez les remarques personnelles."
+msgstr "Rédigez des évaluations <strong>factuelles</strong> et évitez les remarques personnelles."
 
 #: 
 msgid "Key"
@@ -4968,7 +4965,7 @@ msgstr "Mettre en vente plusieurs articles en une seule fois en téléchargeant 
 
 #: 
 msgid "List one <em>Release URL</em> or <em>Release ID</em> per line. Be sure to include the <em>Key Release</em> here."
-msgstr "Inclure <strong> le montant </ strong> de vos tarifs d'expédition et <strong> qui </ strong> est responsable du paiement de l'expédition. Restez concis."
+msgstr "Inclure <strong> le montant </strong> de vos tarifs d'expédition et <strong> qui </strong> est responsable du paiement de l'expédition. Restez concis."
 
 #: 
 msgid "List one Release ID per line."
@@ -5102,8 +5099,7 @@ msgstr "Rechercher de nouveaux amis ?"
 
 #: 
 msgid "Looking for votes? Visit our <a href=\"%(link)s\">Forum</a>."
-msgstr "Obtenir des votes ? Plus d'infos ici <a href=\"%(link)s\">Forum</a>.\n"
-""
+msgstr "Obtenir des votes ? Plus d'infos ici <a href=\"%(link)s\">Forum</a>."
 
 #: 
 msgid "Looks like you haven't been up to anything interesting lately. Try adding something to your wantlist or collection!"
@@ -5179,8 +5175,7 @@ msgstr "Articles mis à jour manuellement"
 
 #: 
 msgid "Manually Update your Collection &amp; Wantlist"
-msgstr "Mettre à jour votre Collection &amp; votre Wantlist.\n"
-""
+msgstr "Mettre à jour votre Collection &amp; votre Wantlist."
 
 #: 
 msgid "Mark as Read"
@@ -5538,7 +5533,7 @@ msgstr "L'adresse e-mail doit être valide"
 
 #: 
 msgid "Must be either <em>completely empty</em> or a <em>full, valid URL</em> including http://"
-msgstr "Doit être soit <em> complètement vide </ em> ou <em> contenir une URL intégrale et valide </ em>, y compris la racine http: //"
+msgstr "Doit être soit <em> complètement vide </em> ou <em> contenir une URL intégrale et valide </em>, y compris la racine http://"
 
 #: 
 msgid "Must be one of:"
@@ -5546,7 +5541,7 @@ msgstr "Doit être un de : "
 
 #: 
 msgid "Must be one of: \"%(value1)s\" (to consider offers lower than your listed price) or \"%(value2)s\" (to refuse offers lower than your listed price)."
-msgstr "Doit être: \"% (value1)s\" (afin de prendre en compte les offres inférieures à votre prix indiqué) ou \"% (value2)s\" (afin de refuser les offres inférieures à votre prix indiqué)."
+msgstr "Doit être: \"%(value1)s\" (afin de prendre en compte les offres inférieures à votre prix indiqué) ou \"%(value2)s\" (afin de refuser les offres inférieures à votre prix indiqué)."
 
 #: 
 msgid "My"
@@ -6368,7 +6363,7 @@ msgstr "D'autres versions de cette référence peuvent être aussi disponible à
 
 #: 
 msgid "Our %(help_link)s has answers waiting for most of your questions, and our %(forum_link)s is full of experienced community members!"
-msgstr "Notre %(help_link)s ) à la réponse à la plupart de vos questions, et notre %(forum_link)s vous permet de discuter avec des membres expérimentés de notre communauté !"
+msgstr "Notre %(help_link)s) à la réponse à la plupart de vos questions, et notre %(forum_link)s vous permet de discuter avec des membres expérimentés de notre communauté !"
 
 #: 
 msgid "Our address:"
@@ -6558,7 +6553,7 @@ msgstr "Paiement envoyé"
 msgid "Payment should <strong>only</strong> be made to the seller according to the method and details listed above.\n"
 "If a seller requests payment using information that differs from what is listed above,\n"
 "Discogs recommends you ask the seller to update their payment details and relist the item(s) for sale."
-msgstr "Chaque paiement doit <strong> uniquement </ strong> être effectué selon le mode et les détails indiqués par le vendeur, selon la liste ci-dessus. Si un vendeur réclame un paiement selon un mode qui ne correspond pas à cette liste, \n"
+msgstr "Chaque paiement doit <strong>uniquement </strong> être effectué selon le mode et les détails indiqués par le vendeur, selon la liste ci-dessus. Si un vendeur réclame un paiement selon un mode qui ne correspond pas à cette liste,\n"
 "Discogs vous recommande de demander à celui-ci de mettre à jour ses informations de paiement afin qu'elles correspondent à la liste, puis de remettre en vente le ou les articles."
 
 #: 
@@ -6635,11 +6630,11 @@ msgstr "Merci de bien vouloir noter que la Signalisation des abus ne doit être 
 
 #: 
 msgid "Please check all artist links. If the artist is a legitimate new entry for the database, please list them in the <em>Submission Notes</em> so other users can check."
-msgstr "Merci de vérifier tous les liens Artistes. Si l'artiste est référencé pour la première fois dans la base de données, merci de le lister dans les <em> Notes sur la Propositions </ em> afin d'en informer les autres utilisateurs"
+msgstr "Merci de vérifier tous les liens Artistes. Si l'artiste est référencé pour la première fois dans la base de données, merci de le lister dans les <em> Notes sur la Propositions </em> afin d'en informer les autres utilisateurs"
 
 #: 
 msgid "Please check all label links. If the label is a legitimate new entry for the database, please list them in the <em>Submission Notes</em> so other users can check."
-msgstr "Merci de vérifier tous les liens Label. Si le label est référencé pour la première fois dans la base de données, merci de l'indiquer dans la fenêtre <em> Notes sur la Propositions </ em> afin d'en informer les autres utilisateurs."
+msgstr "Merci de vérifier tous les liens Label. Si le label est référencé pour la première fois dans la base de données, merci de l'indiquer dans la fenêtre <em> Notes sur la Propositions </em> afin d'en informer les autres utilisateurs."
 
 #: 
 msgid "Please check for the buyer's payment and update the order to \"Payment Received\" if you've received the funds for this order."
@@ -8505,7 +8500,7 @@ msgstr "Voir cette légende"
 #: 
 #, fuzzy
 msgid "Showing <%= results.length %> of <%= pagination.items %>"
-msgstr "Aperçu de<%= results.length %> sur <%= pagination.items %>"
+msgstr "Aperçu de <%= results.length %> sur <%= pagination.items %>"
 
 #: 
 msgid "Showing Deleted Messages."
@@ -10686,7 +10681,7 @@ msgstr "Attention"
 
 #: 
 msgid "Was left by a user who purchased an item for the <strong>sole purpose of leaving negative feedback</strong>, with no intention of completing the transaction, or"
-msgstr "Laissée par un utilisateur qui a acheté un article dans le <strong> seul but de laisser une Evaluation négative </ strong>, sans intention de terminer la commande, ou"
+msgstr "Laissée par un utilisateur qui a acheté un article dans le <strong> seul but de laisser une Evaluation négative </strong>, sans intention de terminer la commande, ou"
 
 #: 
 msgid "Was this helpful?"
@@ -10706,7 +10701,7 @@ msgid "We are contacting you to advise that a recent review of a seller you have
 "able to fulfill marketplace orders, or may be engaged in marketplace fraud.\n"
 "This seller's account remains suspended from the marketplace indefinitely\n"
 "due to their activity."
-msgstr "Nous vous contactons afin de vous informer que le vendeur % (username)s chez lequel vous avez passé une commande a été identifié comme étant défaillant sur le suivi des commandes, ou peut être soupçonné d'opérations frauduleuses sur la Marketplace. Le compte de ce vendeur est suspendu pour une période indéfinie en raison de son activité en infraction avec les règles de Discogs.\n"
+msgstr "Nous vous contactons afin de vous informer que le vendeur %(username)s chez lequel vous avez passé une commande a été identifié comme étant défaillant sur le suivi des commandes, ou peut être soupçonné d'opérations frauduleuses sur la Marketplace. Le compte de ce vendeur est suspendu pour une période indéfinie en raison de son activité en infraction avec les règles de Discogs.\n"
 ""
 
 #: 
@@ -11912,11 +11907,11 @@ msgstr "Les informations de votre cartes de crédit sont transmises en mode cryp
 
 #: 
 msgid "Your current e-mail address is %(email)s "
-msgstr "Votre adresse e-mail actuelle est (email)s "
+msgstr "Votre adresse e-mail actuelle est %(email)s "
 
 #: 
 msgid "Your draft releases <strong>will be deleted</strong>."
-msgstr "Vos Brouillons <strong>seront supprimées</strong>s."
+msgstr "Vos Brouillons <strong>seront supprimées</strong>."
 
 #: 
 msgid "Your email address has been changed. Thank you."
@@ -11992,7 +11987,7 @@ msgstr "Votre offre pour %(item_desc)s a été déclinée."
 
 #: 
 msgid "Your offer on %(item_desc)s has expired because the user did not accept it within %(days)s days."
-msgstr "Votre offre pour %(item_desc)s a expirée. L'utilisateur ne l'a pas acceptée sous le délai des %(days) jours qui lui étaient impartis."
+msgstr "Votre offre pour %(item_desc)s a expirée. L'utilisateur ne l'a pas acceptée sous le délai des %(days)s jours qui lui étaient impartis."
 
 #: 
 msgid "Your offer on %(item_desc)s has expired."
@@ -12000,13 +11995,15 @@ msgstr "Votre offre pour %(item_desc)s a expirée."
 
 #: 
 msgid "Your offer on <a href=\"%(orders_url)s\">%(item_desc)s</a> has been declined."
-msgstr "Votre offre pour <a href=\"%(orders_url)s\"%>(item_desc)s</a> a été déclinée."
+msgstr "Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a été été déclinée."
 
 #: 
 msgid "Your offer on <a href=\"%(orders_url)s\">%(item_desc)s</a> has expired\n"
 "because the user did not accept it within %(days)s days."
-msgstr "Votre offre pour <a href=\"%(orders_url)s\"%>(item_desc)s</a> a expirée car l'utilisateur ne l'a pas acceptée sous le délai des %(days)s jours impartis."
-
+msgstr ""
+"Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a expirée"
+"car l'utilisateur ne l'a pas acceptée sous le délai des %(days)s jours "
+"impartis."
 #: 
 msgid "Your offer price must be lower than the listed price."
 msgstr "Le prix de votre offre doit être inférieur au prix de l'article."
@@ -12106,7 +12103,7 @@ msgstr "Ajouter une référence à votre collection ou votre Wantlist"
 
 #: 
 msgid "added %(release)s to collection."
-msgstr "a ajouté "
+msgstr "a ajouté %(release)s a la collection"
 
 #: 
 msgid "added %(release)s to their collection."
@@ -12309,7 +12306,7 @@ msgstr "à partir de %(price)s"
 
 #: 
 msgid "from %(year)s"
-msgstr "à partir de (year)s"
+msgstr "à partir de %(year)s"
 
 #: 
 msgid "from <%- seller %> at no additional cost!"
@@ -12368,7 +12365,7 @@ msgstr "invité par"
 #: 
 msgid "item"
 msgid_plural "items"
-msgstr[0] "Article"
+msgstr[0] "article"
 msgstr[1] "articles"
 
 #: 
@@ -12678,7 +12675,7 @@ msgstr "Total"
 
 #: 
 msgid "totaling under <%= price %> from <%- seller %> at no additional cost!"
-msgstr "pour un total de<%= price %> de la part de <%- seller %>, sans frais supplémentaires !"
+msgstr "pour un total de <%= price %> de la part de <%- seller %>, sans frais supplémentaires !"
 
 #: 
 msgid "under"
