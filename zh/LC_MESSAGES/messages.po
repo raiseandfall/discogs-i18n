@@ -720,7 +720,7 @@ msgid "Actions"
 msgstr ""
 
 msgid "Activate your account"
-msgstr ""
+msgstr "激活你的帐号"
 
 msgid "Activate your account so sellers can contact you"
 msgstr ""
@@ -745,7 +745,7 @@ msgid "Ad-Blocked Releases"
 msgstr ""
 
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #, python-format
 msgid "Add %(start_tag)sMore%(end_tag)s Images"
@@ -772,7 +772,7 @@ msgid "Add Folder"
 msgstr ""
 
 msgid "Add Friend"
-msgstr ""
+msgstr "添加好友"
 
 msgid "Add List To Dashboard"
 msgstr ""
@@ -799,16 +799,16 @@ msgid "Add Thread"
 msgstr ""
 
 msgid "Add To Wantlist"
-msgstr ""
+msgstr "添加到心愿单"
 
 msgid "Add Tracks"
-msgstr ""
+msgstr "添加曲目"
 
 msgid "Add a Field"
 msgstr ""
 
 msgid "Add a Release"
-msgstr ""
+msgstr "添加一个唱片条目"
 
 msgid "Add a Release to the Database"
 msgstr ""
@@ -820,7 +820,7 @@ msgid "Add a range"
 msgstr ""
 
 msgid "Add a release"
-msgstr ""
+msgstr "添加一个唱片条目"
 
 msgid "Add a release to Discogs"
 msgstr ""
@@ -889,7 +889,7 @@ msgid ""
 msgstr ""
 
 msgid "Added"
-msgstr ""
+msgstr "已添加"
 
 msgid "Added item to your cart."
 msgstr ""
@@ -1040,7 +1040,7 @@ msgid "Almost there"
 msgstr ""
 
 msgid "Already have an account?"
-msgstr ""
+msgstr "已有账号？"
 
 #, python-format
 msgid ""
