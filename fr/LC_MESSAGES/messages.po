@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: V2 messages.po\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-03-05 09:11-0800\n"
+"POT-Creation-Date: 2015-03-24 14:50-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "pas télécharger des images avec des watermarks (filigranes de copyright) "
 "ou des pochettes génériques. Voir "
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "Shill Feedback: It is against Discogs guidelines to use your own account "
@@ -62,9 +62,9 @@ msgstr " (hors frais d'expédition)"
 msgid "\"%s\" is available."
 msgstr "\"%s\" est disponible."
 
-#, fuzzy, python-format
+#, python-format
 msgid "\"Search %(seller)s's store"
-msgstr "Recherche dans le magasin de %(seller)s"
+msgstr "\"Recherche dans le magasin de %(seller)s"
 
 #, python-format
 msgid ""
@@ -73,7 +73,7 @@ msgid ""
 "%(objurl)s\n"
 msgstr ""
 "%(action) sur %(objname)s\n"
-"que vous avez effectué pour une proposition ou une contribution. "
+"que vous avez effectué pour une Proposition ou une Contribution. "
 "%(objurl)s"
 
 #, python-format
@@ -108,7 +108,7 @@ msgid_plural "%(n)d Purchases Awaiting Feedback"
 msgstr[0] "%(n)d Achat en attente d'évaluation"
 msgstr[1] "%(n)d achats en attente d'évaluations"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "%(n)d item has been removed from your cart because it is no longer "
 "available"
@@ -187,8 +187,8 @@ msgstr[1] "%(n)s notes neutres des vendeurs"
 #, python-format
 msgid "%(n)s of %(total)s discussion"
 msgid_plural "%(n)s of %(total)s discussions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(n)s sur %(total)s discussion "
+msgstr[1] "(n)s sur %(total)s discussions "
 
 #, python-format
 msgid "%(n)s other versions for sale."
@@ -230,7 +230,7 @@ msgstr "%(num_found)s résultats sur la recherche \"%(query)s\""
 msgid "%(num_want)s want, %(num_have)s have"
 msgstr "%(num_want)s le veulent, %(num_have)s l'ont"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(part)s of %(total)s"
 msgstr "%(part)s de %(total)s"
 
@@ -264,12 +264,44 @@ msgid "%(release)s is no longer available."
 msgstr "%(release)s n'est plus disponible."
 
 #, python-format
+msgid "%(seller_username)s changed this item recently"
+msgstr ""
+
+#, python-format
 msgid "%(title)s was removed"
 msgstr "%(title)s a été retiré"
 
 #, python-format
 msgid "%(title)s was requested to be removed"
 msgstr "%(title)s a été retiré sur demande"
+
+#, python-format
+msgid "%(user)s created the order"
+msgstr ""
+
+#, python-format
+msgid "%(user)s created the order by merging orders %(orders)s"
+msgstr ""
+
+#, python-format
+msgid "%(user)s merged this order into %(order)s"
+msgstr ""
+
+#, python-format
+msgid "%(user)s received refund of %(amount)s"
+msgstr ""
+
+#, python-format
+msgid "%(user)s removed %(item)s"
+msgstr ""
+
+#, python-format
+msgid "%(user)s sent refund of %(amount)s"
+msgstr ""
+
+#, python-format
+msgid "%(user)s set the shipping price to %(amount)s"
+msgstr ""
 
 #, python-format
 msgid "%(username)s has accumulated %(points)d rank point."
@@ -352,10 +384,6 @@ msgid "%s Month Ago"
 msgid_plural "%s Months Ago"
 msgstr[0] "%s mois avant"
 msgstr[1] "%s mois avant"
-
-#, python-format
-msgid "%s converted this message to a support request."
-msgstr "%s a converti ce message en demande d'aide."
 
 #, python-format
 msgid "%s has been deleted."
@@ -463,7 +491,7 @@ msgid "4. Label/Catalog"
 msgstr "4. Label/Catalogue"
 
 msgid "5. Barcodes &amp; Identifiers"
-msgstr "Codes barre &amp; Identifiants"
+msgstr "5. Codes barre &amp; Identifiants"
 
 msgid "6 Months"
 msgstr "6 Mois"
@@ -500,7 +528,7 @@ msgstr "<a href=\"%(link)s\">Contribuer</a> à la base de données. "
 
 #, python-format
 msgid "<a href=\"%(link)s\">Discover</a> new music."
-msgstr "<a href=\"%(link)s\">Découvrez</a> de la nouvelle musique."
+msgstr "<a href=\"%(link)s\">Découvrir</a> de la nouvelle musique."
 
 #, python-format
 msgid "<a href=\"%(link)s\">Send us a support request</a> and we will help you."
@@ -510,13 +538,13 @@ msgstr ""
 
 #, python-format
 msgid "<a href=\"%(link)s\">Track</a> your collection and wantlist."
-msgstr "<a href=\"%(link)s\">Suivez</a> votre Collection et votre Wantlist."
+msgstr "<a href=\"%(link)s\">Suivre</a> votre Collection et votre Wantlist."
 
 msgid "<mark><strong>Your account will NOT be recoverable.</strong></mark>"
 msgstr "<mark><strong>Votre compte sera définitivement supprimé.</strong></mark>"
 
 msgid "<strong>Add</strong> new listings"
-msgstr "<strong>Ajouter</strong> de nouveaux listings."
+msgstr "<strong>Ajouter</strong> de nouveaux listings"
 
 msgid ""
 "<strong>Admin Notice:</strong> Due to inactivity on this account, Home "
@@ -528,8 +556,8 @@ msgstr ""
 
 msgid "<strong>Auto-save submissions</strong> after I comment or vote"
 msgstr ""
-"<strong>Sauvegarder automatiquement la proposition</strong> après mon "
-"commentaire ou mon vote "
+"<strong>Sauvegarder automatiquement la Proposition</strong> après mon "
+"commentaire ou mon vote"
 
 msgid "<strong>Buy and sell</strong> music on a massive marketplace."
 msgstr ""
@@ -543,8 +571,8 @@ msgid ""
 "<strong>Contribute</strong> to the largest, most accurate database of "
 "music."
 msgstr ""
-"<strong>Contribuer</strong> à la plus grande et la plus précise base de "
-"données sur la musique."
+"<strong> Contribuer </strong> à la plus grande et la plus précise base de"
+" données sur la musique."
 
 msgid "<strong>Delete</strong> listings"
 msgstr "<strong>Supprimer</strong> les listings."
@@ -566,14 +594,13 @@ msgstr ""
 "ne pourrez voir vos activités partagées seulement avec les premiers "
 "%(friend_limit)s amis."
 
-#, fuzzy
 msgid ""
 "<strong>Important</strong>: All listings specified in your upload file "
 "will be marked <strong>For Sale</strong>, regardless of their "
 "current&nbsp;status."
 msgstr ""
 "<strong>Important</strong>: Tous les articles listés dans votre fichier à"
-" télécharger seront marqué<strong>En vente</strong>, indépendamment de "
+" télécharger seront marqués <strong>En vente</strong>, indépendamment de "
 "leur statut&nbsp;actuel."
 
 #, python-format
@@ -615,7 +642,7 @@ msgstr ""
 " notre moteur de recherche et nos pages sous un délai de <em>%s "
 "minutes</em>*."
 
-#, fuzzy, python-format
+#, python-format
 msgid "A $ %(amount)s credit has been issued towards your next invoice"
 msgstr "Un crédit de %(amount)s € a été reporté sur votre prochaine facture"
 
@@ -668,26 +695,22 @@ msgid ""
 "A good start is to read over the voting guidelines and the Submission "
 "Guideline changelog:"
 msgstr ""
-"IPour bien démarrer, nous vous conseillons de bien lire le \"Guide "
+"Pour bien démarrer, nous vous conseillons de bien lire le \"Guide "
 "d'attribution des votes\" et le \"Guide de l'historique des modifications"
 " pour les Propositions\" :"
 
 msgid "A group already exists with that name. Please choose a different one."
 msgstr "Il existe déjà un groupe sous ce nom. Merci d'en choisir un différent."
 
-#, fuzzy
+#, python-format
 msgid ""
 "A highly active Discogs community member since 2008, <a "
-"href=\"http://www.discogs.com/user/Dobshizzle?q=u:Dobshizzle\">Dobshizzle</a>"
-" is a collector's collector, genuinely obsessed with collecting records "
-"and playing music. He loves to share his passion for this pursuit with "
-"others, be it in-person or through the medium of Discogs, and his love of"
-" collecting records shines through in everything he does."
+"href=\"%(profile)s\">Dobshizzle</a> is a collector's collector, genuinely"
+" obsessed with collecting records and playing music. He loves to share "
+"his passion for this pursuit with others, be it in-person or through the "
+"medium of Discogs, and his love of collecting records shines through in "
+"everything he does."
 msgstr ""
-"Une communauté Discogs très active depuis 2008, <a "
-"href=\"http://www.discogs.com/user/Dobshizzle?q=u:\">Dobshizzle</a> est "
-"un collectionneur de collectionneurs discophiles. Il aime partager sa "
-"passion pour ses recherches, soit directement, soit à travers Discogs "
 
 msgid "A password reset has been requested for your account."
 msgstr "Une réinitialisation du mot de passe a été demandé pour votre compte ."
@@ -701,9 +724,8 @@ msgstr "Erreur de serveur au cours de la connexion. Merci de réessayer."
 msgid "A-Z"
 msgstr "A-Z"
 
-#, fuzzy
 msgid "ANV"
-msgstr "ANV"
+msgstr "Variante du nom d'artiste"
 
 msgid "API"
 msgstr "API"
@@ -711,14 +733,9 @@ msgstr "API"
 msgid "API Documentation"
 msgstr "Documentation API"
 
-msgid "API v1.0 Documentation"
-msgstr "Documentation API v1.0"
-
-#, fuzzy
 msgid "API v2 Documentation"
 msgstr "Documentation API v2"
 
-#, fuzzy
 msgid "Abbr"
 msgstr "Abbréviation"
 
@@ -758,7 +775,6 @@ msgstr "Accepter"
 msgid "Accepted Payment(s)"
 msgstr "Paiement(s) accepté(s)"
 
-#, fuzzy
 msgid "Access Token URL"
 msgstr "URL de jeton de requête"
 
@@ -783,7 +799,7 @@ msgstr "Notifications du compte"
 msgid "Account Verification"
 msgstr "Vérification du compte"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Account creation is not available at this time. If you have tried to set "
 "up an account recently, please check your email for the confirmation "
@@ -792,10 +808,10 @@ msgid ""
 "confirmation code is sent to, please log on with your username and "
 "password, and you will be directed to the email settings page. Thanks!"
 msgstr ""
-"La création d'un compte n'est pas disponible pour cette opération. Si "
-"vous avez ouvert un compte récemment, merci de vérifier si vous n'avez "
-"pas déjà reçu le code de confirmation sur votre e-mail. Si vous n'avez "
-"pas reçu de code de confirmation, merci %s de faire une nouvelle demande."
+"La création d'un compte n'est pas possible actuellemen . Si vous avez "
+"ouvert un compte récemment, merci de vérifier si vous n'avez pas déjà "
+"reçu le code de confirmation sur votre e-mail. Si vous n'avez pas reçu de"
+" code de confirmation, merci %s de faire une nouvelle demande."
 
 msgid ""
 "Accounts are absolutely free – jump in and enjoy full access immediately!"
@@ -822,9 +838,8 @@ msgstr "Actions"
 msgid "Activate your account"
 msgstr "Activez votre compte"
 
-#, fuzzy
 msgid "Activate your account so sellers can contact you"
-msgstr "Activez votre compte afin que les vendeurs puissent vous contacter."
+msgstr "Activez votre compte afin que les Vendeurs puissent vous contacter."
 
 msgid "Activate your account, update email and password, change your avatar."
 msgstr ""
@@ -838,11 +853,11 @@ msgid "Activity Menu"
 msgstr "Menu des activités"
 
 msgid "Activity through"
-msgstr ""
+msgstr "Activité depuis le"
 
 #, python-format
 msgid "Activity through %(activity_end)s"
-msgstr ""
+msgstr "Activité depuis le %(activité_end)s"
 
 msgid "Ad-Blocked Releases"
 msgstr ""
@@ -895,7 +910,6 @@ msgstr "Ajouter une référence"
 msgid "Add Review"
 msgstr "Ajouter un Avis"
 
-#, fuzzy
 msgid "Add Row"
 msgstr "Ajouter une colonne"
 
@@ -919,6 +933,9 @@ msgstr "Ajouter une référence à la base de données"
 
 msgid "Add a Video"
 msgstr "Ajouter une vidéo"
+
+msgid "Add a module"
+msgstr ""
 
 msgid "Add a range"
 msgstr "Ajouter une ligne"
@@ -959,6 +976,9 @@ msgstr "Ajouter une image"
 msgid "Add it back"
 msgstr "Rajouter"
 
+msgid "Add releases you'd like to own to your wantlist"
+msgstr ""
+
 msgid "Add some images"
 msgstr "Ajouter des images"
 
@@ -968,7 +988,6 @@ msgstr "Ajouter des images à la Référence-Clef."
 msgid "Add to Cart"
 msgstr "Ajouter au panier"
 
-#, fuzzy
 msgid "Add to Collection"
 msgstr "Ajouter à la collection"
 
@@ -982,7 +1001,7 @@ msgid "Add to Wantlist"
 msgstr "Ajouter à votre Wantlist"
 
 msgid "Add to your Saved Submissions"
-msgstr "Ajouté à vos propositions enregistrées"
+msgstr "Ajouté à vos Propositions enregistrées"
 
 msgid "Add up to <%- space %> more discs/tapes"
 msgstr "Ajouter <%- space %> de disques/K7"
@@ -993,7 +1012,7 @@ msgid ""
 "Form</a>."
 msgstr ""
 "Ajouter votre disque sur Discogs en utilisant <a href=\"%(link)s\">le "
-"formulaire de proposition</a>. "
+"formulaire de Proposition<a >."
 
 msgid "Added"
 msgstr "Ajouté"
@@ -1019,7 +1038,7 @@ msgstr "Ajouté à la nouvelle version"
 
 #, python-format
 msgid "Added user to your %s list."
-msgstr "Utilisateur ajouté à votre %s liste. "
+msgstr "Utilisateur ajouté à votre %s liste."
 
 msgid "Adding Information to Discogs"
 msgstr "Ajout des informations sur Discogs"
@@ -1045,9 +1064,8 @@ msgstr "Ressources Additionnelles :"
 msgid "Address"
 msgstr "Adresse"
 
-#, fuzzy
 msgid "Adjust notification preferences and seller information."
-msgstr "Ajuster les notifications de préférences et les informations vendeur."
+msgstr "Ajuster les notifications de préférences et les informations Vendeur."
 
 msgid "Admin"
 msgstr "Admin"
@@ -1064,14 +1082,9 @@ msgstr "Recherche avancée"
 #, python-format
 msgid ""
 "After saving the settings on this page, <a href=\"%(link)s\" "
-"class=\"new_window\">set up your shipping policies</a> to have your "
-"shipping prices displayed next to the price of your items in the "
-"marketplace."
+"target=\"_blank\">set up your shipping policies</a> to have your shipping"
+" prices displayed next to the price of your items in the marketplace."
 msgstr ""
-"Après avoir enregistré les paramètres sur cette page,  <a "
-"href=\"%(link)s\" class=\"new_window\"> vous pouvez régler votre "
-"politique d'expédition</a> pour que vos prix d'expédition soient indiqués"
-" à côté du prix de vos articles."
 
 msgid "Aliases"
 msgstr "Alias"
@@ -1165,9 +1178,11 @@ msgstr "Autoriser d'autres membres à parcourir ma collection"
 msgid "Allow others to browse my wantlist"
 msgstr "Autoriser d'autres membres à parcourir ma Wantlist"
 
-#, fuzzy
 msgid "Almost there"
 msgstr "On y est presque"
+
+msgid "Almost there!"
+msgstr ""
 
 msgid "Already have an account?"
 msgstr "Vous avez déjà un compte ?"
@@ -1225,7 +1240,6 @@ msgstr "Montant"
 msgid "An error occurred. Please try again."
 msgstr "Une erreur est survenue. Merci d'essayer à nouveau."
 
-#, fuzzy
 msgid ""
 "An unknown error occurred while attempting to fetch your PayPal "
 "information. Please try again later."
@@ -1261,7 +1275,7 @@ msgid "Applied Filters"
 msgstr "Filtres activés"
 
 msgid "Applied to Invoice?"
-msgstr "Appliqué à la facture ?"
+msgstr "Commande concernée"
 
 msgid "Approve Changes"
 msgstr "Approuvez les changements"
@@ -1350,9 +1364,6 @@ msgstr "Etes-vous sûr de vouloir rejoindre ce groupe ?"
 msgid "Are you sure you want to leave this group?"
 msgstr "Etes-vous sûr de vouloir quitter ce groupe ?"
 
-msgid "Are you sure you want to mark these items for sale?"
-msgstr "Etes-vous sûr de vouloir mettre cet article en vente ?"
-
 msgid "Are you sure you want to quit this group?"
 msgstr "Etes-vous sûr de vouloir quitter ce groupe ?"
 
@@ -1419,13 +1430,6 @@ msgstr ""
 "encore payé, laissez simplement un message sur la page de commande pour "
 "informer le vendeur que vous souhaitez annuler."
 
-msgid "Attach A File"
-msgstr "Joindre un fichier\n"
-
-#, fuzzy
-msgid "Attach File"
-msgstr "Joindre fichier"
-
 msgid "Audio"
 msgstr "Son"
 
@@ -1470,7 +1474,6 @@ msgstr "Le calcul automatique des frais d'expédition <strong>est activé</stron
 msgid "Average"
 msgstr "Moyenne"
 
-#, fuzzy
 msgid "Average Vote"
 msgstr "Vote moyen"
 
@@ -1490,23 +1493,23 @@ msgid "Back to release"
 msgstr "Retour à la référence"
 
 msgid "Ban"
-msgstr "Interdire"
+msgstr "Blacklister"
 
 msgid "Ban user and delete all their groups"
-msgstr "Interdire l'utilisateur et effacer tout ses groupes "
+msgstr "Blacklister l'utilisateur et effacer tout ses groupes "
 
 msgid "Bank Transfer"
 msgstr "Virement bancaire"
 
 msgid "Banned Users"
-msgstr "Utilisateurs interdits"
+msgstr "Utilisateurs blacklistés"
 
 #, python-format
 msgid "Banned user %s from this group."
-msgstr "Utilisateur interdit %s de ce groupe"
+msgstr "Utilisateur blacklisté sur %s ce groupe"
 
 msgid "Bans"
-msgstr "Interdire"
+msgstr "Blacklistés"
 
 msgid "Barcode"
 msgstr "Code barre"
@@ -1550,9 +1553,9 @@ msgid ""
 " You should supply any and all information and links to proofs you have "
 "relating to the justification of this submission."
 msgstr ""
-"Soyez sûr d'inclure une justification complète et détaillé pour votre "
-"propositions. Vous devez fournir toutes les informations et les liens "
-"vers les preuves relatives à la justification de cette propositions. "
+"Soyez sûr d'inclure une justification complète et détaillée pour votre "
+"Propositions. Vous devez fournir toutes les informations et les liens "
+"vers les preuves relatives à la justification de cette Proposition."
 
 msgid ""
 "Because of the amount of data, your export request will be queued and "
@@ -1586,7 +1589,6 @@ msgstr "Meilleurs Etats."
 msgid "Billing"
 msgstr "Facturation"
 
-#, fuzzy
 msgid "Billing, sales fees and fee credit information for sellers."
 msgstr ""
 "Facturation, commission sur les ventes et information sur le solde pour "
@@ -1626,7 +1628,7 @@ msgstr "Acheté par"
 msgid "Browse"
 msgstr "Parcourir"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Browse %(mode)s Groups"
 msgstr "Parcourir %(mode)s les groupes"
 
@@ -1645,7 +1647,6 @@ msgstr "Options de navigation"
 msgid "Bugs and Feature Requests"
 msgstr "\n"
 
-#, fuzzy
 msgid "Building something cool? Check out our API!"
 msgstr ""
 "Vous souhaitez tirer le meilleur parti de Discogs ? Rendez-vous sur notre"
@@ -1660,7 +1661,7 @@ msgstr "Téléchargement groupé de mon inventaire terminé"
 msgid "Buy"
 msgstr "Acheter"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Buy %s%sat Discogs Marketplace"
 msgstr "Acheter %s%ssur la Marketplace Discogs"
 
@@ -1674,8 +1675,17 @@ msgstr "Acheter de la musique"
 msgid "Buy Similar Items"
 msgstr "Acheter des articles similaires"
 
+msgid "Buy and Sell"
+msgstr ""
+
 msgid "Buy and Sell Vinyl and CDs at Discogs Marketplace"
 msgstr "Achetez et vendez des vinyles et CDs sur la Marketplace Discogs"
+
+msgid "Buy and sell items in the Discogs Marketplace."
+msgstr ""
+
+msgid "Buy and sell items in the Discogs marketplace."
+msgstr ""
 
 msgid ""
 "Buy rare and hard to find music on vinyl records and used CDs from "
@@ -1737,7 +1747,7 @@ msgid "Buyer has archived this Order"
 msgstr "L'acheteur a archivé cette commande"
 
 msgid "Buyer rating"
-msgstr "Note de l'acheteur"
+msgstr "Votre note acheteur"
 
 msgid "Buyer's Agreement"
 msgstr "Conditions générales d'achat"
@@ -1834,7 +1844,7 @@ msgstr ""
 "acceptables</a>."
 
 msgid "Can't find a group for you?"
-msgstr "Vous ne trouvez pas un groupe qui vous corresponde ?"
+msgstr "Vous ne trouvez pas un groupe qui vous correspond ?"
 
 msgid "Can't find it on Discogs?"
 msgstr "Introuvable sur Discogs ?"
@@ -1862,7 +1872,7 @@ msgstr "Annulé (remboursement reçu)"
 
 #, python-format
 msgid "Cannot %s yourself."
-msgstr ""
+msgstr "Vous ne pouvez pas effectuer l'action %s pour vous même."
 
 msgid "Cannot estimate; item is not associated with a release"
 msgstr "Impossible d'estimer. Cet article n'est pas associé à une référence"
@@ -1876,13 +1886,11 @@ msgstr "Cryptogramme"
 msgid "Cart"
 msgstr "Panier"
 
-#, fuzzy
 msgid "Cat #"
 msgstr "Cat #"
 
-#, fuzzy
 msgid "Cat#"
-msgstr "Cat # "
+msgstr "Cat #"
 
 msgid "Catalog #"
 msgstr "Catalogue #"
@@ -1904,6 +1912,9 @@ msgstr ""
 " sur le marché. Ajouter des articles à votre Wantlist afin de recevoir "
 "des alertes ciblées sur les nouveautés et les raretés en vente."
 
+msgid "Catalog your personal collection"
+msgstr ""
+
 msgid "Catalog#"
 msgstr "Catalogue# "
 
@@ -1913,7 +1924,6 @@ msgstr "Changer de devise"
 msgid "Change Email Address"
 msgstr "Changer l'adresse e-mail"
 
-#, fuzzy
 msgid "Change Log"
 msgstr "Journal des modifications"
 
@@ -1935,9 +1945,8 @@ msgstr "Changer le statut"
 msgid "Change your address"
 msgstr "Changer votre adresse"
 
-#, fuzzy
 msgid "Change your avatar at "
-msgstr "Changer votre avatar dans"
+msgstr "Changer votre avatar sur"
 
 msgid "Change your email address"
 msgstr "Changer votre adresse e-mail"
@@ -2024,6 +2033,12 @@ msgstr ""
 "Vérifiez votre e-mail pour plus d'instructions. Si l'e-mail n'apparaît "
 "pas dans votre messagerie, vérifiez votre dossier spam."
 
+msgid "Check your inbox for further instructions."
+msgstr ""
+
+msgid "Checkout using"
+msgstr ""
+
 msgid "Choices"
 msgstr "Choix"
 
@@ -2051,7 +2066,7 @@ msgstr "Effacer tous les filtres"
 msgid "Clear My Saved Submissions"
 msgstr "Effacer mes propositions enregistrées"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Click <a href=\"%(purchase_feedback_url)s\">here</a> link below to view "
 "all orders currently awaiting feedback."
@@ -2086,7 +2101,6 @@ msgstr "Cliquer sur 'Payer' à côté de la facture afin de voir les impayés."
 msgid "Click once and wait"
 msgstr "Cliquez une fois et attendez"
 
-#, fuzzy
 msgid "Click the link below to view all orders currently awaiting feedback:"
 msgstr ""
 "Cliquez sur le lien ci-dessous pour voir toutes les commandes en attente "
@@ -2112,7 +2126,7 @@ msgid "Collapse"
 msgstr "Echec"
 
 msgid "Collapse Row"
-msgstr ""
+msgstr "Supprimer le rang"
 
 msgid "Collection"
 msgstr "Collection"
@@ -2121,10 +2135,10 @@ msgid "Collection Note Fields"
 msgstr "Champs de notes pour la collection"
 
 msgid "Collection Value Range"
-msgstr ""
+msgstr "Classement de la valeur de votre Collection"
 
 msgid "Collection item not found"
-msgstr ""
+msgstr "Article non trouvé dans votre collection"
 
 msgid "Comment for feedback"
 msgstr "Commentaire pour l'évaluation"
@@ -2149,6 +2163,9 @@ msgstr "Commentaires sur l'offre :"
 msgid "Comments on this item"
 msgstr "Commentaires sur cet article"
 
+msgid "Comments were changed"
+msgstr ""
+
 msgid "Comments:"
 msgstr ""
 
@@ -2169,7 +2186,7 @@ msgid "Components"
 msgstr ""
 
 msgid "Compose"
-msgstr "Ecrire"
+msgstr "Ecrire message"
 
 msgid "Compose New Message"
 msgstr "Ecrire un nouveau message"
@@ -2181,15 +2198,12 @@ msgstr "Ecrire une Newsletter"
 msgid "Condition"
 msgstr "Condition"
 
-#, fuzzy
 msgid "Condition and comments"
 msgstr "Etat de l'article et commentaires."
 
-#, fuzzy
 msgid "Condition comments"
 msgstr "Commentaires sur l'état de l'articles"
 
-#, fuzzy
 msgid "Conditions"
 msgstr "Conditions"
 
@@ -2225,10 +2239,10 @@ msgstr ""
 "données a été levée."
 
 msgid "Consumer Key"
-msgstr ""
+msgstr "Consumer Key"
 
 msgid "Consumer Secret"
-msgstr ""
+msgstr "Consumer Secret"
 
 msgid "Contact Info"
 msgstr "Information de contact"
@@ -2256,9 +2270,8 @@ msgstr ""
 msgid "Contained Releases"
 msgstr "Références Existantes"
 
-#, fuzzy
 msgid "Contains <strong>links</strong>, or"
-msgstr "Contient <strong>links</strong>, ou"
+msgstr "Contient <strong>Des liens </strong>, ou"
 
 msgid ""
 "Contains <strong>personal identifying information</strong> about a user, "
@@ -2287,13 +2300,13 @@ msgid "Continuous Improvement"
 msgstr "Amélioration continue"
 
 msgid "Contribute"
-msgstr "Contribuer"
+msgstr "Contribuez"
 
 msgid "Contributed"
 msgstr "Contribué"
 
 msgid "Contributing"
-msgstr "Contribuer"
+msgstr "Contribuez"
 
 msgid "Contributing to Discogs"
 msgstr "Contribuer à Discogs"
@@ -2320,14 +2333,14 @@ msgid "Contributor Zone"
 msgstr "Zone contributeurs"
 
 msgid "Contributors"
-msgstr "Contrbuteurs"
+msgstr "Contributeurs"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Control which kinds of events are posted to <a href=\"%(link)s\">your "
 "activity feed</a>."
 msgstr ""
-"Controler quel type d'évènements peuvent être postés sur <a "
+"Contrôler quels types d'évènements peuvent être postés sur <a "
 "href=\"%(link)s\">votre flux d'activité</a>."
 
 #, python-format
@@ -2347,7 +2360,6 @@ msgstr "Copier à partir de vote compte PayPal"
 msgid "Copy to Draft"
 msgstr "Brouillon à partir d'une Version Existante"
 
-#, fuzzy
 msgid "Correct"
 msgstr "Correct"
 
@@ -2360,13 +2372,13 @@ msgid "Correct Label Name %(optional)s"
 msgstr "Corrigez le nom du label %(optional)s"
 
 msgid "Count"
-msgstr ""
+msgstr "Nbre de disques"
 
 msgid "Country"
 msgstr "Pays"
 
 msgid "Counts as"
-msgstr ""
+msgstr "Nbre de disques"
 
 msgid "Create Account"
 msgstr "Créer un Compte"
@@ -2377,31 +2389,24 @@ msgstr "Créer un Groupe"
 msgid "Create Invite Only Group"
 msgstr "Créer un groupe sur invitation seulement"
 
-#, fuzzy
 msgid "Create Master Release"
 msgstr "Créer Référence Principale"
 
-#, fuzzy
 msgid "Create My Account"
 msgstr "Créer mon compte"
 
-#, fuzzy
 msgid "Create New Discogs Account"
 msgstr "Créer un nouveau compte Discogs"
 
-#, fuzzy
 msgid "Create New Group"
 msgstr "Créer un nouveau Groupe"
 
-#, fuzzy
 msgid "Create Public Group"
 msgstr "Créer un Groupe Public"
 
-#, fuzzy
 msgid "Create Your New Discogs Account"
 msgstr "Créer votre nouveau Compte Discogs"
 
-#, fuzzy
 msgid "Create a New Group"
 msgstr "Créer un nouveau groupe"
 
@@ -2409,31 +2414,24 @@ msgstr "Créer un nouveau groupe"
 msgid "Create a new %(mode)s group"
 msgstr "Créer un nouveau %(mode)s groupe"
 
-#, fuzzy
 msgid "Create a new message"
 msgstr "Créer un nouveau message"
 
-#, fuzzy
 msgid "Create a new topic"
 msgstr "Créer un nouveau sujet"
 
-#, fuzzy
 msgid "Create an Account"
 msgstr "Créer un compte"
 
-#, fuzzy
 msgid "Create an Application"
 msgstr "Créer une application"
 
-#, fuzzy
 msgid "Create an account now."
 msgstr "Créer un compte maintenant"
 
-#, fuzzy
 msgid "Create an application"
 msgstr "Créer une application"
 
-#, fuzzy
 msgid "Create application"
 msgstr "Créer une application"
 
@@ -2444,9 +2442,8 @@ msgstr "Créez votre compte Discogs"
 msgid ""
 "Create your Discogs account and we'll apply a <strong>$%(credit)s "
 "credit</strong>."
-msgstr ""
+msgstr "Créez votre compte Discogs, et nous vous offrirons un "
 
-#, fuzzy
 msgid "Create, update, or delete custom note fields for your collection."
 msgstr ""
 "Créez, mettez à jour, ou effacez des notes personnalisées de votre "
@@ -2502,7 +2499,6 @@ msgstr "Liste des crédits"
 msgid "Currency"
 msgstr "Devise"
 
-#, fuzzy
 msgid "Currency information will be pulled from your marketplace settings."
 msgstr ""
 "Les informations sur la devise seront retirées - tirées - de votre "
@@ -2515,7 +2511,7 @@ msgid "Current Invoice Items"
 msgstr "Articles facturés actuellement"
 
 msgid "Current Quality Rating:"
-msgstr "Note de qualité actuelle : "
+msgstr "Note de qualité actuelle :"
 
 msgid "Current Videos"
 msgstr "Vidéos actuelles"
@@ -2731,7 +2727,6 @@ msgstr "Suspension du compte Discogs"
 msgid "Discogs Blog"
 msgstr "Le blog de Discogs"
 
-#, fuzzy
 msgid "Discogs Blog - Drafts"
 msgstr "Blogs Discogs - Brouillons"
 
@@ -2844,7 +2839,6 @@ msgstr ""
 "Discogs est une communauté collaborative qui ne pourrait pas exister sans"
 " ses membres passionnés de musique à la recherche d'un but commun."
 
-#, fuzzy
 msgid ""
 "Discogs is provided with a valid <strong>court order</strong> finding "
 "that the disputed feedback is slanderous, libelous, defamatory or "
@@ -2955,9 +2949,8 @@ msgstr "Ne pas modifier le statut de l'offre"
 msgid "Don't have an account?"
 msgstr "Vous n'avez pas un compte ?"
 
-#, fuzzy
 msgid "Don't miss out on the items still in your cart:"
-msgstr "Il reste de articles dans votre panier :"
+msgstr "Il reste des articles dans votre panier :"
 
 msgid "Don't remove"
 msgstr "Ne pas supprimer"
@@ -3004,9 +2997,8 @@ msgstr "Les Références sont encore en format Brouillon et ne peuvent être ven
 msgid "Drafts"
 msgstr "Brouillons"
 
-#, fuzzy
 msgid "Drag and drop files or click to browse"
-msgstr "Glisser et déposer le fichier ou cliquez pour télécharger"
+msgstr "Glissez et déposez le fichier ou cliquez pour télécharger"
 
 msgid "Duration"
 msgstr "Durée"
@@ -3134,11 +3126,13 @@ msgstr ""
 msgid "Enter the Release ID of the Key Release."
 msgstr "Entrer le numéro d'identification de la Référence-Clef."
 
-#, fuzzy
 msgid ""
 "Enter the email address associated with your Discogs account. Password "
 "reset instructions will be sent via email."
-msgstr "Saisissez l'adresse email associée à votre compte Discogs. "
+msgstr ""
+"Saisissez l'adresse e-mail associée à votre compte Discogs. Les "
+"instructions de réinitialisation de votre mot de passe vous seront "
+"envoyées sur cet e-mail."
 
 msgid "Enter your password"
 msgstr "Entrez votre mot de passe."
@@ -3152,7 +3146,6 @@ msgstr "Entrez votre code promo"
 msgid "Enter your reply"
 msgstr "Entrez votre réponse"
 
-#, fuzzy
 msgid "Enter your review or comment"
 msgstr "Entrez votre Avis ou Commentaire"
 
@@ -3193,12 +3186,8 @@ msgstr "Activité de tous"
 msgid "Existing List"
 msgstr "Liste existante"
 
-#, fuzzy
 msgid "Expand Row"
 msgstr "Elargir la colonne"
-
-msgid "Expected integer release_id"
-msgstr ""
 
 msgid "Expiration Date"
 msgstr "Date d'expiration"
@@ -3214,6 +3203,9 @@ msgstr "Expire le"
 
 msgid "Explore"
 msgstr "Explorer"
+
+msgid "Exploring"
+msgstr ""
 
 msgid "Export"
 msgstr "Exporter"
@@ -3311,13 +3303,6 @@ msgstr "Structure du fichier"
 msgid "File Type"
 msgstr "Format du fichier"
 
-msgid "File Upload"
-msgstr "Téléchargement du fichier"
-
-#, fuzzy
-msgid "File a request as the entered username"
-msgstr "Déposer une demande comme le nom d'utilisateur entré"
-
 msgid "File format releases are not allowed to be sold"
 msgstr "Le format de la référence proposée n'est pas autorisé à la vente"
 
@@ -3327,7 +3312,6 @@ msgstr "Fichier sélectionné"
 msgid "Filename"
 msgstr "Nom du fichier. "
 
-#, fuzzy
 msgid "Files over 10k will be zipped automatically."
 msgstr "Les fichiers de plus de 10k seront zippés automatiquement."
 
@@ -3415,9 +3399,9 @@ msgid ""
 "Search</a>, or check out the list of operators you can use in our <a "
 "href=\"%(link2)s\">guide on searching</a>."
 msgstr ""
-"For more control over your query, try <a href=\"%(link)s\">Advanced "
-"Search</a>, or check out the list of operators you can use in our <a "
-"href=\"%(link2)s\">guide on searching</a>. "
+"Pour affiner votre recherche, utilisez la <a href=\"%(link)s\">Recherche "
+"Avancée</a>, ou consultez la liste des critères de recherche disponibles "
+"sur notre <a href=\"%(link2)s\">page d'aide à la recherche</a>. "
 
 #, python-format
 msgid ""
@@ -3437,20 +3421,14 @@ msgstr ""
 "href=\"%(url)s\">Page d'aide</a> , puis cliquer sur \"Nouvelle demande "
 "d'aide\".\n"
 
+#, python-format
 msgid ""
-"For over 15 years, <a "
-"href=\"http://www.discogs.com/user/360vinyl?q=u:360vinyl\">360 Vinyl</a> "
-"has operated out of a brick-and-mortar shop right in the heart of "
-"Portland. A proud Discogs member since 2008, owner Aaron Marquez has "
-"embraced the community as a way to share his love of collecting vinyl "
-"records with fans around the world."
+"For over 15 years, <a href=\"%(profile)s\">360 Vinyl</a> has operated out"
+" of a brick-and-mortar shop right in the heart of Portland. A proud "
+"Discogs member since 2008, owner Aaron Marquez has embraced the community"
+" as a way to share his love of collecting vinyl records with fans around "
+"the world."
 msgstr ""
-"Depuis plus de 15 ans, <a "
-"href=\"http://www.discogs.com/user/360vinyl?q=u:360vinyl\">360 Vinyl</a> "
-"dirige un magasin situé dans un immeuble en brique au centre de Portland."
-" Membre fidèle de Discogs depuis 2008, son propriétaire Aaron Marquez a "
-"rejoint notre communauté avec l'objectif de partager son amour de la "
-"collection de vinyls rares avec des fans du monde entier. "
 
 msgid "For the seller"
 msgstr "Pour le vendeur"
@@ -3492,8 +3470,8 @@ msgstr[1] "%(num_results)s résultats trouvés pour %(query)s."
 #, fuzzy, python-format
 msgid "Found %(num_sub)s submission"
 msgid_plural "Found %(num_sub)s submissions"
-msgstr[0] "%(num_sub)s proposition trouvée. \n"
-msgstr[1] "%(num_sub)s propositions trouvées. \n"
+msgstr[0] "%(num_sub)s Proposition trouvée. \n"
+msgstr[1] "%(num_sub)s Propositions trouvées.\n"
 
 #, fuzzy, python-format
 msgid "Found %(total)s result for <mark>%(query)s</mark>."
@@ -3555,7 +3533,6 @@ msgstr "Démarrez sur Discogs"
 msgid "Get an Account"
 msgstr "Ouvrir un compte"
 
-#, fuzzy
 msgid "Get help on uploading files and accepted fields."
 msgstr ""
 "Obtenir de l'aide sur le téléchargement des fichiers et les champs "
@@ -3564,13 +3541,11 @@ msgstr ""
 msgid "Get involved in our discussion section!"
 msgstr "Participez à notre section de discussion"
 
-#, fuzzy
 msgid "Get notifications about major API updates and changes"
 msgstr ""
 "Obtenir des notifications sur les mises à jour et les changements majeurs"
 " de l'API"
 
-#, fuzzy
 msgid "Get notified when records are listed for sale."
 msgstr "Soyez alerté lorsque les articles sont mis en vente."
 
@@ -3607,7 +3582,6 @@ msgstr "Aller au tableau de bord"
 msgid "Go to Discogs.com homepage"
 msgstr "Aller à la page d'accueil Discogs.com"
 
-#, fuzzy
 msgid "Go to Edit"
 msgstr "Aller à l'éditeur"
 
@@ -3630,7 +3604,7 @@ msgid "Go to Purchases"
 msgstr "Aller aux achats"
 
 msgid "Go to Submissions"
-msgstr "Aller aux propositions"
+msgstr "Aller aux Propositions"
 
 msgid "Go to User Profile"
 msgstr "Aller au profil utilisateur"
@@ -3641,11 +3615,9 @@ msgstr "Aller à la Wantlist"
 msgid "Go to the Selection"
 msgstr "Aller à la sélection"
 
-#, fuzzy
 msgid "Google Log In"
 msgstr "Connexion Google"
 
-#, fuzzy
 msgid "Got a really tough question? Our staff can help!"
 msgstr "Vous avez un question sans réponse ? Notre équipe peut vous aider !"
 
@@ -3710,9 +3682,8 @@ msgid "Has Audio Clip"
 msgstr ""
 
 msgid "Have"
-msgstr "l'ont"
+msgstr "Ceux qui l'ont"
 
-#, fuzzy
 msgid "Have access to all API endpoints"
 msgstr "Avoir accès à l'API principale"
 
@@ -3735,11 +3706,8 @@ msgstr "Aide"
 msgid "Help &amp; Support"
 msgstr ""
 
-msgid "Help Forum Bans"
-msgstr "Forum d'aide sur les interdictions"
-
 msgid "Help Is Here"
-msgstr "Trouvez de l'aide ici"
+msgstr "Aides"
 
 msgid "Help People Enjoy Music"
 msgstr "Aidez les gens à apprécier la musique"
@@ -3777,7 +3745,6 @@ msgstr "Masquer"
 msgid "Hide editing options"
 msgstr "Masquer les options d'édition"
 
-#, fuzzy
 msgid "Highest"
 msgstr "Le plus cher"
 
@@ -3801,6 +3768,9 @@ msgid "Hover on the title or description then click to edit."
 msgstr ""
 "Placez le curseur sur le titre ou la description puis cliquez pour "
 "pouvoir éditer."
+
+msgid "How do I activate my Discogs Account?"
+msgstr ""
 
 msgid "How do I add stuff to my wantlist?"
 msgstr "Comment ajouter une référence dans ma Wantlist ?"
@@ -3861,7 +3831,7 @@ msgstr ""
 "d'expéditions ci-dessous, les frais d'expéditions seront calculés de "
 "manière automatique."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If our staff have contacted you to discuss activity or concerns that may "
 "be violating\n"
@@ -3987,13 +3957,12 @@ msgstr ""
 "Si vous avez accédé à cette page via notre moteur de recherche, cet "
 "article sera supprimé sous un délai de %d minutes."
 
-#, fuzzy
 msgid ""
 "If you cannot click the link, just copy and paste the entire link into "
 "your browser."
 msgstr ""
-"Si le lien ne fonctionne pas, vous pouvez le copier-coller dans votre "
-"barre de chargement de votre navigateur."
+"Si le lien ne fonctionne pas, vous pouvez le copier-coller dans la barre "
+"de chargement de votre navigateur."
 
 msgid ""
 "If you did not request this, no further action is required and you may "
@@ -4065,7 +4034,7 @@ msgstr ""
 "Si vous avez des questions au sujet de votre commande, merci de contacter"
 " le Vendeur via la page de la commande :"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you have open orders and have not been communicating\n"
 "with buyers, it is possible your account has been automatically suspended"
@@ -4083,7 +4052,7 @@ msgstr ""
 "Si vous avez accepté des commandes sans répondre aux acheteurs, il est "
 "possible que votre compte ait été suspendu. Cette suspension est "
 "automatique si une question n'a pas reçue de réponse sous un délai de 4 "
-"jours ( 96 heures). "
+"jours ( 96 heures)."
 
 msgid ""
 "If you have other listings that violate this policy, please remove or\n"
@@ -4109,7 +4078,6 @@ msgstr ""
 "Si vous avez des questions au sujet de cette commande, merci de "
 "%(start_tag)scontacter le Vendeur %(end_tag)s via la page de commande."
 
-#, fuzzy
 msgid ""
 "If you haven't received the confirmation message, you can have it sent "
 "again:"
@@ -4138,8 +4106,8 @@ msgid ""
 msgstr ""
 "Si vous signalez une image non abusive sur cette page, elle <strong> ne "
 "sera pas<\\strong> supprimée ou retirée. Merci d'utiliser l'option "
-"<em>désactiver l'image</em> sur la page précédente pour tout autre images"
-" incorrectes ou mises à jour par erreur."
+"<em>désactiver l'image</em> sur la page précédente pour toute autre "
+"images incorrectes ou mises à jour par erreur."
 
 msgid ""
 "If you ship to every country, create a policy for the \"Entire World\" "
@@ -4412,9 +4380,6 @@ msgstr "Montant de l'offre non valide"
 msgid "Invalid parameter:"
 msgstr "Paramétre non valide :"
 
-msgid "Invalid price, item not listed."
-msgstr "Prix non valide, référence non listée."
-
 msgid "Invalid release ID."
 msgstr "Numéro d'identification non valide."
 
@@ -4458,9 +4423,8 @@ msgstr "Date de la facture"
 msgid "Invoice Detail"
 msgstr "Détails de la facture"
 
-#, fuzzy
 msgid "Invoice Detail for"
-msgstr "Détail de la facture du"
+msgstr "Détail de la facture pour"
 
 msgid "Invoice Number"
 msgstr "Numéro de facture"
@@ -4471,13 +4435,14 @@ msgstr "Numéro de facture :"
 msgid "Invoice Sent"
 msgstr "Facture envoyée"
 
-#, fuzzy
 msgid "Invoice for"
-msgstr "Facture du"
+msgstr "Facture pour"
 
 #, python-format
 msgid "Invoice for %(invoice_date)s"
-msgstr "Facture du %(invoice_date)s"
+msgstr ""
+"Facture du (invoice_date)s\n"
+"\t\n"
 
 msgid "Invoices"
 msgstr "Factures"
@@ -4488,7 +4453,7 @@ msgstr "Facturation"
 msgid "Issues, problems, or feedback?"
 msgstr "Des questions, des problèmes, des commentaires ?"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "It is against Discogs guidelines to use your own account or any\n"
 "secondary account to leave false positive feedback to boost your overall\n"
@@ -4502,7 +4467,7 @@ msgid ""
 "possible reactivation."
 msgstr ""
 "Utiliser votre propre compte ou un compte secondaire pour laisser un "
-"fausse Evaluation positive afin d'améliorer votre propre évaluation (<a "
+"fausse Evaluation positive afin d'améliorer votre propre Evaluation (<a "
 "href=\"%(url)s\">%(url)s</a>) va à l'encontre du règlement de Discogs. Si"
 " vous avez effectué une telle opération, votre compte a été suspendu. "
 "Contactez notre équipe <a href=\"%(url_2)s\">%(url_2)s</a>) et confirmez "
@@ -4538,6 +4503,9 @@ msgid ""
 "item on the corresponding release page. A detailed explanation of this\n"
 "policy is available here:"
 msgstr ""
+"Créer une Référence qui ne correspond pas à l'article actuel n'est pas "
+"autorisé. Une explication détaillée des règles de Discogs est consultable"
+" ici :"
 
 msgid ""
 "It is against Discogs policy to create listings that are not the actual "
@@ -4546,6 +4514,9 @@ msgid ""
 "is\n"
 "available here:"
 msgstr ""
+"Créer une Référence qui ne correspond pas à l'article actuel n'est pas "
+"autorisé. Une explication détaillée des règles de Discogs est consultable"
+" ici :"
 
 msgid ""
 "It is against Discogs policy to list \"joke\" items or prices in the\n"
@@ -4574,9 +4545,9 @@ msgid ""
 "Marketplace be available for purchase at the price listed, plus any\n"
 "shipping and handling fees."
 msgstr ""
-"Il est requis que tous les articles listés à la vente sur Discogs soient "
-"bien disponibles pour l'achat au prix indiqué, hors frais d'expédition et"
-" de maintenance."
+"Il est requis que tous les articles mis en vente sur Discogs soient bien "
+"disponibles pour l'achat au prix indiqué, hors frais d'expédition et de "
+"maintenance."
 
 msgid ""
 "It is required that all items listed for sale in the Discogs Marketplace "
@@ -4585,7 +4556,7 @@ msgid ""
 "handling\n"
 "fees."
 msgstr ""
-"Il est requis que tous les articles listés à la vente sur la Marketplace "
+"Il est requis que tous les articles mis en vente sur la Marketplace "
 "Discogs soient bien disponibles pour l'achat au prix indiqué, hors frais "
 "d'expédition et de maintenance."
 
@@ -4603,8 +4574,8 @@ msgstr ""
 
 msgid "It may take a few minutes for your Marketplace listings to be updated."
 msgstr ""
-"La prise en compte de la devise nécessite quelques minutes avant "
-"d'apparaître sur votre liste.\n"
+"La mise à jour de vos articles nécessite quelques minutes avant "
+"d'apparaître sur la Marketplace.\n"
 
 msgid ""
 "It may take a moment for the messages to appear on the corresponding "
@@ -4639,8 +4610,9 @@ msgid ""
 "It's free to list your items, pay only when you sell. And your listings "
 "never expire."
 msgstr ""
-"Lister vos articles est gratuit. Vous ne payez sous forme de commission "
-"que lorsque vous vendez. Et vos listings ne disparaissent jamais. "
+"Mettre vos articles en vente est gratuit. Vous ne payez sous forme de "
+"commission que lorsque vous vendez. Et vos listings ne disparaissent "
+"jamais. "
 
 msgid "Item"
 msgstr "Article"
@@ -4675,7 +4647,6 @@ msgstr "Location de l'article"
 msgid "Item Ships From"
 msgstr "Article expédié de"
 
-#, fuzzy
 msgid "Item View"
 msgstr "Afficher l'article"
 
@@ -4699,7 +4670,7 @@ msgid "Items For Sale"
 msgstr "Articles en vente"
 
 msgid "Items I Want"
-msgstr "Articles que je souhaite"
+msgstr "Ma Wantlist"
 
 msgid "Items I'm selling"
 msgstr "Mes articles en ventes"
@@ -4751,37 +4722,21 @@ msgid "Joined on"
 msgstr "Rejoint le"
 
 msgid "Joke Listings"
-msgstr ""
+msgstr "Offres extravagantes"
 
+#, python-format
 msgid ""
 "Jon AD has operated Portland, OR -based record shop and label <a "
-"href=\"http://www.discogs.com/user/anthemrecords?q=u:anthemrecords\">Anthem"
-" Records</a> since 2004, and has been a prominent Discogs member since "
-"2006. While the shop has maintained a focus on stocking underground "
-"music, ranging from hip-hop and down-tempo to metal and experimental, the"
-" label also lays claim to several recent critically acclaimed releases, "
-"including <a "
-"href=\"http://www.discogs.com/artist/3350341-Zirakzigil\">Zirakzigil's</a>"
-" <em><a href=\"http://www.discogs.com/Zirakzigil-Battle-Of-The-"
-"Peak/release/4686325\">Battle of the Peak</a></em> (2013) and <a "
-"href=\"http://www.discogs.com/artist/289067-John-Haughm\">John "
-"Haughm's</a> <em><a href=\"http://www.discogs.com/John-"
-"Haughm-122012-042911/release/4141464\">122012 &amp; 042911</a></em> "
-"(2012)."
+"href=\"%(profile)s\">Anthem Records</a> since 2004, and has been a "
+"prominent Discogs member since 2006. While the shop has maintained a "
+"focus on stocking underground music, ranging from hip-hop and down-tempo "
+"to metal and experimental, the label also lays claim to several recent "
+"critically acclaimed releases, including <a "
+"href=\"%(artist1)s\">Zirakzigil's</a> <em><a href=\"%(release1)s\">Battle"
+" of the Peak</a></em> (2013) and \n"
+"                        <a href=\"%(artist2)s\">John Haughm's</a> <em><a "
+"href=\"%(release2)s\">122012 &amp; 042911</a></em> (2012)."
 msgstr ""
-"Jon AD dirige le magasin de disque et label de Portland (Orégon) <a "
-"href=\"http://www.discogs.com/user/anthemrecords?q=u:anthemrecords\">Anthem"
-" Records</a> depuis 2004. Il fait partie des membres historiques de "
-"Discogs depuis 2006. Son magasin est spécialisé dans la musique "
-"underground, allant du hip-hop à la down-tempo en passant par le metal et"
-" l'experimental. Son label est aussi reconnu par de nombreux critiques "
-"qui apprécient ses productions, comme <a "
-"href=\"http://www.discogs.com/artist/3350341-Zirakzigil\">Zirakzigil's</a>"
-" <em><a href=\"http://www.discogs.com/Zirakzigil-Battle-Of-The-"
-"Peak/release/4686325\">Battle of the Peak</a></em> (2013) et<a "
-"href=\"http://www.discogs.com/artist/289067-John-Haughm\">John "
-"Haughm's</a> <em><a href=\"http://www.discogs.com/John-"
-"Haughm-122012-042911/release/4141464\">122012 &amp; 042911</a></em>"
 
 msgid "Jump to"
 msgstr "Aller à"
@@ -4793,7 +4748,7 @@ msgid "Jump to Previous Section"
 msgstr "Aller à la section précédente"
 
 msgid "Jump to next submission after saving comment"
-msgstr "Aller à la prochaine proposition après avoir enregistré le commentaire"
+msgstr "Aller à la prochaine Proposition après avoir enregistré le commentaire"
 
 #, python-format
 msgid "Just need a <a href=\"%(url)s\">personal access token</a>?"
@@ -4828,7 +4783,7 @@ msgstr "Blacklister"
 
 #, python-format
 msgid "Kicked %s out of this group."
-msgstr "Blacklisté %s d ce groupe"
+msgstr "Blacklisté %s sur ce groupe"
 
 msgid ""
 "L.A.-based Skylar Hardenbrook has been a prominent Discogs contributor "
@@ -4898,6 +4853,9 @@ msgstr "Dernière activité"
 msgid "Last name"
 msgstr "Nom de famille"
 
+msgid "Last sold"
+msgstr ""
+
 msgid "Last sold on"
 msgstr "Dernière vente le"
 
@@ -4951,11 +4909,6 @@ msgstr "Légende"
 msgid "Less than %s"
 msgstr "Moins de  %s"
 
-msgid "Let Discogs know what you want by adding releases to your"
-msgstr ""
-"Signalez à Discogs ce que vous recherchez en ajoutant une référence à "
-"votre"
-
 msgid "Let us know."
 msgstr "Informez nous."
 
@@ -4972,28 +4925,25 @@ msgid "Links to Other Selling Sites"
 msgstr "Lien vers les autres sites marchands"
 
 msgid "List"
-msgstr ""
+msgstr "Lister"
 
 msgid "List Activity"
 msgstr "Activité de la liste"
 
-#, fuzzy
 msgid "List For Sale"
 msgstr "Mettre En vente"
 
-#, fuzzy
 msgid "List Item For Sale"
-msgstr "Mettre l'Article en Vente"
+msgstr "Vendre Article(s)"
 
 msgid "List all"
-msgstr "Tout lister"
+msgstr "Tout Mettre en Vente"
 
 msgid "List item"
 msgstr "Vendre l'Article"
 
-#, fuzzy
 msgid "List item for sale"
-msgstr "Mettre l'Article en Vente"
+msgstr "Vendre article(s)"
 
 msgid "List multiple items for sale at once by uploading a CSV file."
 msgstr ""
@@ -5028,11 +4978,11 @@ msgstr ""
 msgid "List your inventory on Discogs"
 msgstr "Listez votre inventaire sur Discogs."
 
-msgid "List your personal"
+msgid "List your personal collection"
 msgstr ""
 
 msgid "Listed"
-msgstr "Listé"
+msgstr "Mis en vente"
 
 msgid "Listed Price"
 msgstr "Prix listés"
@@ -5046,7 +4996,7 @@ msgid "Listing Currency"
 msgstr "Choisir la devise"
 
 msgid "Listing Violations"
-msgstr ""
+msgstr "Articles non acceptables."
 
 #, python-format
 msgid ""
@@ -5057,12 +5007,12 @@ msgstr ""
 "Mettre des articles en vente est gratuit. Discogs facture une commission "
 "de %(fee_as_percentage)s%% sur chaque vente effectuée et payée. La "
 "commission minimum est fixée à $0.10.  Elle sera calculée à la prochaine "
-"étape. "
+"étape."
 
 msgid "Listings that are in Violation status can only be deleted."
 msgstr ""
 "Les produits mis en vente qui sont sous le statut Infraction doivent être"
-" supprimés. "
+" supprimés."
 
 msgid "Lists"
 msgstr "Listes"
@@ -5070,11 +5020,8 @@ msgstr "Listes"
 msgid "Lists by"
 msgstr "Listes par"
 
-msgid "Load Template"
-msgstr "Charger un modèle"
-
 msgid "Loaded a past revision."
-msgstr ""
+msgstr "Ancienne version rétablie."
 
 msgid "Loading"
 msgstr "En cours de téléchargement"
@@ -5101,7 +5048,7 @@ msgid "Log In"
 msgstr "Connexion"
 
 msgid "Log In to Discogs"
-msgstr "Se connecter à Descole Est"
+msgstr "Se connecter à Discogs"
 
 msgid "Log Out"
 msgstr "Déconnexion"
@@ -5113,37 +5060,20 @@ msgstr "Connexion."
 msgid "Log on to"
 msgstr "Connexion avec"
 
-#, fuzzy
 msgid "Logged in as"
 msgstr "Connecté en tant que"
 
+#, python-format
 msgid ""
-"London, U.K.-based <a "
-"href=\"http://www.discogs.com/user/djdtl?q=u:djdtl\">Djdtl</a>, aka <a "
+"London, U.K.-based <a href=\"%(profile)s\">Djdtl</a>, aka <a "
 "href=\"http://www.vinylpimp.co.uk\">Vinyl Pimp</a>, a Discogs community "
 "member for nearly a full decade, is both a strong database <a "
-"href=\"http://www.discogs.com/contributions?user=Djdtl\">contributor</a> "
-"and a highly-regarded <a "
-"href=\"http://www.discogs.com/seller/Djdtl\">seller</a>. As part of our "
-"series in Community Profiles, Discogs sent a crew to the U.K. to gt a "
-"behind-the-scenes look at one of the most efficient and fascinating vinyl"
-" shops in our community."
+"href=\"%(contributions)s\">contributor</a> and a highly-regarded <a "
+"href=\"%(seller)s\">seller</a>. As part of our series in Community "
+"Profiles, Discogs sent a crew to the U.K. to gt a behind-the-scenes look "
+"at one of the most efficient and fascinating vinyl shops in our "
+"community."
 msgstr ""
-"Basé à Londres, <a "
-"href=\"http://www.discogs.com/user/djdtl?q=u:djdtl\">Djdtl</a>, Basé à "
-"Londres, <a "
-"href=\"http://www.discogs.com/user/djdtl?q=u:djdtl\">Djdtl</a>, aussi "
-"connu sous le nom de <a href=\"http://www.vinylpimp.co.uk\">Vinyl "
-"Pimp</a>, est un membre de la communauté Discogs depuis plus de 10 ans. "
-"Il possède à la fois une base de données solide, <a "
-"href=\"http://www.discogs.com/contributions?user=Djdtl\">une importante "
-"activité de contributeur</a> et sa page Vendeur <a "
-"href=\"http://www.discogs.com/seller/Djdtl\"> est très fréquentée</a>. On"
-" peut le retrouver sur notre série \"Profils des communautés\", Discogs "
-"lui a consacré un article dans notre série \"Portraits de la communauté\""
-" après avoir envoyé une de nos équipes faire un reportage dans l'arrière "
-"boutique de son magasin à Londres, l'un des lieux les plus fascinants et "
-"les mieux organisés de notre communauté."
 
 msgid "Looking for some new friends?"
 msgstr "Rechercher de nouveaux amis ?"
@@ -5162,9 +5092,8 @@ msgstr ""
 msgid "Lookup"
 msgstr "Chercher"
 
-#, fuzzy
 msgid "Lowest"
-msgstr "Le plus bas"
+msgstr "Le moins cher"
 
 msgid "Main Navigation"
 msgstr "Navigation principale"
@@ -5188,7 +5117,6 @@ msgstr ""
 "Etes-vous sûr d'avoir enregistré vos changements après avoir terminé de "
 "remplir vos paramètres complémentaires ?"
 
-#, fuzzy
 msgid "Make sure you are uploading a CSV file with utf-8 encoding."
 msgstr ""
 "Vérifiez que vous téléchargez bien un fichier au format CSV encodé au "
@@ -5218,9 +5146,8 @@ msgstr "Gérez votre inventaire"
 msgid "Manually Update Items"
 msgstr "Articles mis à jour manuellement"
 
-#, fuzzy
 msgid "Manually Update your Collection &amp; Wantlist"
-msgstr "Mettre à jour votre Collection et votre Wantlist."
+msgstr "Mettre à jour votre Collection &amp; votre Wantlist."
 
 msgid "Mark as Read"
 msgstr "Marquer comme lu"
@@ -5229,7 +5156,7 @@ msgid "Mark as Unread"
 msgstr "Marquer comme non lu"
 
 msgid "Mark for Sale"
-msgstr "Sélectioner pour mettre en vente"
+msgstr "Sélectionner pour mettre en vente"
 
 #, python-format
 msgid ""
@@ -5287,7 +5214,7 @@ msgid_plural "Marketplace Violations"
 msgstr[0] "Infraction sur la Marketplace"
 msgstr[1] "Infractions sur la Marketplace."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Marketplace Violation: If our staff have contacted you to discuss "
 "activity or\n"
@@ -5325,7 +5252,7 @@ msgid "Maximum"
 msgstr "Maximum"
 
 msgid "Med"
-msgstr ""
+msgstr "Med"
 
 msgid "Media"
 msgstr "Média"
@@ -5340,7 +5267,7 @@ msgid "Media:"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "Median"
 
 msgid "Members"
 msgstr "Membres"
@@ -5389,10 +5316,6 @@ msgstr "Message (optionel)"
 msgid "Message must be between 1 and %d characters."
 msgstr "La longueur du message doit être comprise entre 1 et %d caractères."
 
-#, python-format
-msgid "Message was converted to support request %s."
-msgstr "Le message a été converti en demande d'aide %s."
-
 msgid "Messages will be permanently removed after one week."
 msgstr "Le message sera définitivement supprimé au bout d'une semaine."
 
@@ -5400,10 +5323,9 @@ msgid ""
 "Meticulous database submission experts, obscure music aficionados, dollar"
 " bin divers, attic treasure trawlers, savvy indie label marketers."
 msgstr ""
-"Experts méticuleux en propositions sur la base de données de soumission, "
-"amateurs de musique obscures, diggers à la recherche de la bonne "
-"occasion, chasseurs de trésors des grenier, érudits des labels "
-"indépendants."
+"Experts méticuleux en nouveautés sur la base de données, amateurs de "
+"musique obscures, diggers à la recherche de la bonne occasion, chasseurs "
+"de trésors des grenier, érudits des labels indépendants."
 
 msgid "Min"
 msgstr "Minimum"
@@ -5468,6 +5390,9 @@ msgstr "Les labels les plus communs"
 msgid "Most Popular Topics"
 msgstr "Sujets les plus populaires De"
 
+msgid "Most Sold This Month"
+msgstr ""
+
 msgid "Most Wanted"
 msgstr "Les plus demandés"
 
@@ -5525,7 +5450,6 @@ msgstr ""
 "Série de chiffres obligatoire. Il s'agit du numéro d'identification du "
 "listing que vous souhaitez mettre à jour."
 
-#, fuzzy
 msgid ""
 "Must be a number. This value corresponds with the Discogs database "
 "Release ID. For example, a value of \"123\" means you will be selling a "
@@ -5539,15 +5463,12 @@ msgstr ""
 msgid "Must be a valid condition (see below)."
 msgstr "L'état de l'article doit être valide (voir ci-dessous)"
 
-msgid "Must be a valid email address"
-msgstr "L'adresse e-mail doit être valide"
-
 msgid ""
 "Must be either <em>completely empty</em> or a <em>full, valid URL</em> "
 "including http://"
 msgstr ""
-"Doit être soit <em>complètement vide</em> ou <em>contenir une URL "
-"intégrale et valide</em>, y compris la racine http://"
+"Doit être soit <em> complètement vide </em> ou <em> contenir une URL "
+"intégrale et valide </em>, y compris la racine http://"
 
 msgid "Must be one of:"
 msgstr "Doit être un de : "
@@ -5611,7 +5532,7 @@ msgid "My Store"
 msgstr "Ma boutique"
 
 msgid "My Submissions"
-msgstr "Mes propositions"
+msgstr "Mes Propositions"
 
 msgid "My Uploads"
 msgstr "Mes téléchargements"
@@ -5642,9 +5563,6 @@ msgstr "Navigation"
 
 msgid "Need Help?"
 msgstr "Besoin d'aide ?"
-
-msgid "Need help activating your account?"
-msgstr "Besoin d'aide pour activer votre compte ?"
 
 msgid "Need help?"
 msgstr "Besoin d'aide ?"
@@ -5687,7 +5605,7 @@ msgstr "Jamais"
 msgid "Never share"
 msgstr "Ne jamais partager"
 
-#, fuzzy, python-format
+#, python-format
 msgid "New (rev: %(curr_rev)s)"
 msgstr "Nouveau (rev: %(curr_rev)s)"
 
@@ -5725,14 +5643,14 @@ msgid "New Styles"
 msgstr "Nouveaux styles"
 
 msgid "New Submission"
-msgstr "Nouvelle proposition"
+msgstr "Nouvelle Proposition"
 
 msgid "New Support Request"
 msgstr "Nouvelle demande d'aide"
 
 #, fuzzy
 msgid "New Thread"
-msgstr "Nouveau fil"
+msgstr "Nouveau fil de discussion"
 
 msgid "New folder name"
 msgstr "Nouveau nom de dossier"
@@ -5753,7 +5671,7 @@ msgstr ""
 "PayPal vérifié"
 
 msgid "New submissions related to my lists"
-msgstr "Nouvelles soumissions associées à mes listes"
+msgstr "Nouvelles Propositions associées à mes listes"
 
 msgid "New thread"
 msgstr "Nouveau fil"
@@ -5790,7 +5708,6 @@ msgstr "Non"
 msgid "No %(lang)s results found for"
 msgstr "Aucun %(lang)s résultats trouvés pour"
 
-#, fuzzy
 msgid "No Drafts"
 msgstr "Pas de de Brouillons"
 
@@ -5803,17 +5720,15 @@ msgstr "Pas d'image"
 msgid "No Match"
 msgstr "Pas de correspondance"
 
-#, fuzzy
 msgid ""
 "No OAuth token parameter found! Please send your OAuth token as a request"
 " parameter."
 msgstr ""
-"No OAuth token parameter found! Please send your OAuth token as a request"
-" parameter."
+"Pas de OAuth paramètres  jeton trouvé ! Merci d'envoyer votre OAuth jeton"
+" selon les paramètres requis.\n"
 
-#, fuzzy
 msgid "No Rating Yet"
-msgstr "Pas encore de note"
+msgstr "Pas encore de notation"
 
 msgid "No Results Found"
 msgstr "Pas de résultats"
@@ -5821,9 +5736,8 @@ msgstr "Pas de résultats"
 msgid "No Reviews Found."
 msgstr "Pas d'Avis trouvés"
 
-#, fuzzy
 msgid "No buyer rating"
-msgstr "Pas de note pour l'acheteur"
+msgstr "Pas de note en tant qu'acheteur"
 
 msgid "No data"
 msgstr "Pas de données"
@@ -5847,6 +5761,9 @@ msgid ""
 "will\n"
 "be able to make another offer."
 msgstr ""
+"Le Vendeur n'accepte plus d'offre au-delà du prix fixé actuellement. Dans"
+" le cas où le vendeur baisse le prix vous pourrez alors faire une autre "
+"offre."
 
 msgid ""
 "No further offers will be considered on this item while it is for sale at"
@@ -5855,6 +5772,9 @@ msgid ""
 "be able\n"
 "to make another offer."
 msgstr ""
+"Le Vendeur n'accepte plus d'offre au-delà du prix fixé actuellement. Dans"
+" le cas où le vendeur baisse le prix vous pourrez alors faire une autre "
+"offre."
 
 msgid "No images have been uploaded."
 msgstr "Aucune image téléchargée"
@@ -5930,14 +5850,14 @@ msgstr[1] ""
 "Les commandes ne peuvent pas être mises à jour, car les Commandes %s ne "
 "peuvent être désarchivées."
 
-#, fuzzy, python-format
+#, python-format
 msgid "No orders were updated, because feedback cannot be left on Order %s."
 msgid_plural "No orders were updated, because feedback cannot be left on Orders %s."
 msgstr[0] ""
-"Les commandes ne peuvent pas être mises à jour, car l'évaluation ne peut "
+"Les commandes ne peuvent pas être mises à jour, car l'Evaluation ne peut "
 "pas être laissées sur les Commandes %s."
 msgstr[1] ""
-"Les commandes ne peuvent pas être mises à jour, car les évaluations ne "
+"Les commandes ne peuvent pas être mises à jour, car les Evaluations ne "
 "peuvent pas être laissées sur les Commandes %s."
 
 #, python-format
@@ -5974,9 +5894,8 @@ msgstr ""
 msgid "No sales history is available for this item."
 msgstr "Pas d'historique des ventes disponible sur cet article"
 
-#, fuzzy
 msgid "No seller rating"
-msgstr "Pas de note pour le vendeur"
+msgstr "Pas de note en tant que vendeur"
 
 msgid "No such user."
 msgstr "Utilisateur inconnu"
@@ -6015,7 +5934,6 @@ msgstr ""
 msgid "Not in any group? <a href=\"%(link)s\">Join a group on Discogs</a>."
 msgstr "Vous êtes dans aucun groupe ? "
 
-#, fuzzy
 msgid "Not rated yet"
 msgstr "Pas encore de notes"
 
@@ -6047,7 +5965,7 @@ msgid "Notify me"
 msgstr "Notifiez moi"
 
 msgid "Notify me of new submissions related to this list."
-msgstr "Me prévenir des nouvelles propositions relatives à cette liste"
+msgstr "Me prévenir des nouvelles Propositions relatives à cette liste"
 
 msgid "Number of items that this item counts as (for shipping)."
 msgstr "Nombre de supports contenus dans cet articles (pour l'expédition)."
@@ -6068,10 +5986,10 @@ msgid "Offer"
 msgstr "Offre"
 
 msgid "Offer was accepted"
-msgstr "Offre acceptée"
+msgstr "Vous avez accepté l'offre"
 
 msgid "Offer was declined"
-msgstr "L'offre a été refusé"
+msgstr "Vous avez refusé l'offre"
 
 msgid "Offers"
 msgstr "Offres"
@@ -6079,6 +5997,9 @@ msgstr "Offres"
 #, python-format
 msgid "Old (rev: %(prev_rev)s)"
 msgstr "Ancien (rev: %(prev_rev)s)"
+
+msgid "Older than 1 year"
+msgstr ""
 
 msgid "Oldest"
 msgstr "Plus ancien"
@@ -6107,9 +6028,9 @@ msgid ""
 "current unvoted submissions for that page"
 msgstr ""
 "Sur n'importe quelle page d'artiste ou de label, vous pouvez cliquer sur "
-"le lien \"x propositions en attente\"  au bas de la fenêtre à gauche, "
+"le lien \"x Propositions en attente\"  au bas de la fenêtre à gauche, "
 "afin d'obtenir la liste de toutes les Propositions actuellement non "
-"votées. "
+"votées."
 
 msgid ""
 "On any release page, click the 'History / Edit' link to vote on the "
@@ -6124,7 +6045,7 @@ msgid ""
 "automatically reinstate your account within %(m)s minutes (no need to\n"
 "email)."
 msgstr ""
-"Dès vos factures impayées seront réglés, notre système rétabliras "
+"Dès que vos factures impayées seront réglées, notre système rétablira "
 "automatiquement votre compte dans les %(m)s minutes. (Nous n'envoyons pas"
 " d'e-mail pour cette opération)."
 
@@ -6181,8 +6102,9 @@ msgstr "Recherche de vinyls seulement"
 msgid "Only show topics I've posted in"
 msgstr "Seulement montrer les sujets dans lesquels j'ai posté"
 
+#, fuzzy
 msgid "Only you can view a disabled image"
-msgstr ""
+msgstr "Voir images désactivées seulement"
 
 msgid "Only your country will be displayed in the marketplace."
 msgstr "Seul votre pays sera visible sur la Marketplace."
@@ -6207,7 +6129,6 @@ msgstr "Ouvrir dans une nouvelle fenêtre"
 msgid "Open Shipping Policies Editor"
 msgstr "Ouvrir l'Editeur des règles d'expédition"
 
-#, fuzzy
 msgid "Open Site Menu"
 msgstr "Ouvrir le plan du site"
 
@@ -6257,7 +6178,6 @@ msgstr "N°de commande"
 msgid "Order Information"
 msgstr "Informations sur la commande"
 
-#, fuzzy
 msgid "Order Terms (&quot;Buyer's Code&quot;)"
 msgstr "Termes de la commande (&quot;Buyer's Code&quot;)"
 
@@ -6280,17 +6200,16 @@ msgstr "Le montant de la commande doit être"
 msgid "Orders"
 msgstr "Commandes"
 
-#, fuzzy
 msgid ""
 "Orders are billed according to the order status at the time of billing.\n"
 "Invoices include all orders received 15+ days prior to your invoicing "
 "date that\n"
 "have not been cancelled, merged or paid for on a prior invoice."
 msgstr ""
-"Les commandes sont facturées  facturation. Les factures comprennent "
-"toutes les commandes reçues plus de 15 jours avant la date de facturation"
-" qui n'ont pas été annulées, fusionnées ou payées sur une facture "
-"préalable."
+"Les commissions Discogs sont facturées  sur les Commandes payées. Les "
+"factures comprennent toutes les commandes reçues plus de 15 jours avant "
+"la date de facturation qui n'ont pas été annulées, fusionnées ou payées "
+"sur une facture préalable."
 
 msgid "Orders by Day"
 msgstr "Commands par jour"
@@ -6314,7 +6233,7 @@ msgstr "Autres versions"
 msgid "Other Versions (%(other_versions)s of %(num_versions)s)"
 msgstr "Autres versions (%(other_versions)s de %(num_versions)s)"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Other copies may still be available;\n"
 "<a href=\"%(cart_url)s\" target=\"_blank\">check your cart</a> to see the"
@@ -6322,9 +6241,9 @@ msgid ""
 "details of what changed and what other items are in the marketplace."
 msgstr ""
 "D'autres articles de cette références peuvent être disponibles;\n"
-"<a href=\"%(cart_url)s\" target=\"_blank\"> vérifier votre panier pour "
-"voir les </a>\n"
-"détails des changements et voir les autres articles disponibles."
+"<a href=\"%(cart_url)s\" target=\"_blank\"> vérifiez votre panier </a> "
+"afin de vérifier les \n"
+"changements et voir les autres articles disponibles."
 
 msgid ""
 "Other copies may still be available; check your cart to see the details "
@@ -6335,7 +6254,7 @@ msgstr ""
 "articles disponibles."
 
 msgid "Other submissions to check"
-msgstr "Autres propositions à vérifier"
+msgstr "Autres Propositions à vérifier"
 
 msgid "Other versions of this release may also be available for purchase:"
 msgstr ""
@@ -6347,8 +6266,8 @@ msgid ""
 "Our %(help_link)s has answers waiting for most of your questions, and our"
 " %(forum_link)s is full of experienced community members!"
 msgstr ""
-"Notre %(help_link)s à la réponse à la plupart de vos questions, et notre "
-"%(forum_link)s vous permet de discuter avec des membres expérimentés de "
+"Notre %(help_link)s) à la réponse à la plupart de vos questions, et notre"
+" %(forum_link)s vous permet de discuter avec des membres expérimentés de "
 "notre communauté !"
 
 msgid "Our address:"
@@ -6381,7 +6300,6 @@ msgstr ""
 "Notre équipe sera heureuse de vous aider si vous avez des questions. "
 "Merci !"
 
-#, fuzzy
 msgid "Overdue Discogs Invoice"
 msgstr "Facture Discogs en retard"
 
@@ -6398,13 +6316,14 @@ msgstr ""
 "comission doivent être ensuite payées individuellement à Discogs. Vous "
 "pouvez voir vos facturations de commissions Discogs actuelles ici :"
 
-#, fuzzy
+msgid "Overview"
+msgstr ""
+
 msgid "Overwrite any existing quantities"
 msgstr "Ecraser une quantité existante."
 
-#, fuzzy
 msgid "Overwrite any existing weights"
-msgstr "Ecraser une poids existant."
+msgstr "Ecraser un poids existant."
 
 msgid "Paid Invoices"
 msgstr "Factures payées"
@@ -6443,9 +6362,6 @@ msgstr ""
 
 msgid "Pay"
 msgstr "Payer"
-
-msgid "Pay Now"
-msgstr "Payer maintenant"
 
 msgid "Pay invoice"
 msgstr "Payer la facture"
@@ -6487,7 +6403,7 @@ msgid "PayPal was unable to process the transaction."
 msgstr "PayPal n'a pu effectuer la transaction."
 
 msgid "Payee same as ships from details"
-msgstr ""
+msgstr "Aux coordonnées du Vendeur."
 
 msgid ""
 "Paying the invoice will result in automatic account reactivation within "
@@ -6538,7 +6454,7 @@ msgid ""
 "Discogs recommends you ask the seller to update their payment details and"
 " relist the item(s) for sale."
 msgstr ""
-"Chaque paiement doit <strong>uniquement</strong> être effectué selon le "
+"Chaque paiement doit <strong>uniquement </strong> être effectué selon le "
 "mode et les détails indiqués par le vendeur, selon la liste ci-dessus. Si"
 " un vendeur réclame un paiement selon un mode qui ne correspond pas à "
 "cette liste,\n"
@@ -6559,10 +6475,10 @@ msgid "Paypal Payments"
 msgstr "Paiements PayPal"
 
 msgid "Pending"
-msgstr "Suspendu"
+msgstr "En attente"
 
 msgid "Pending Offers"
-msgstr "Offres suspendues"
+msgstr "Offres en attente"
 
 msgid "Pending Release Merges"
 msgstr "Fusion de Propositions en attente"
@@ -6640,8 +6556,8 @@ msgid ""
 msgstr ""
 "Merci de vérifier tous les liens Artistes. Si l'artiste est référencé "
 "pour la première fois dans la base de données, merci de le lister dans "
-"les <em>Notes de Propositions</em> afin que les autres utilisateurs "
-"puissent vérifier."
+"les <em> Notes sur la Propositions </em> afin d'en informer les autres "
+"utilisateurs"
 
 msgid ""
 "Please check all label links. If the label is a legitimate new entry for "
@@ -6649,9 +6565,9 @@ msgid ""
 "users can check."
 msgstr ""
 "Merci de vérifier tous les liens Label. Si le label est référencé pour la"
-" première fois dans la base de données, merci de le lister dans les "
-"<em>Notes de Propositions</em> afin que les autres utilisateurs puissent "
-"vérifier."
+" première fois dans la base de données, merci de l'indiquer dans la "
+"fenêtre <em> Notes sur la Propositions </em> afin d'en informer les "
+"autres utilisateurs."
 
 msgid ""
 "Please check for the buyer's payment and update the order to \"Payment "
@@ -6719,13 +6635,15 @@ msgstr ""
 
 #, python-format
 msgid "Please complete your %s before listing this item"
-msgstr "Merci de terminer votre %s avant de lister cet article"
+msgstr "Merci de terminer votre %s avant de metrte en ventecet article"
 
 msgid "Please complete your Seller Settings before continuing."
 msgstr "Merci de compléter vos Paramètres Vendeur avant de continuer."
 
 msgid "Please complete your Seller Settings before listing items."
-msgstr "Merci de compléter vos Paramètres Vendeur avant de lister vos articles."
+msgstr ""
+"Merci de compléter vos Paramètres Vendeur avant de mettre en vente vos "
+"articles."
 
 msgid "Please contact the seller via the order page to arrange for payment:"
 msgstr ""
@@ -6741,7 +6659,7 @@ msgid ""
 "correct. You can use the <a href=\"%(link)s\">Forum</a> to discuss the "
 "validity of any updates that you suspect are required."
 msgstr ""
-"Merci de ne pas soumettre votre proposition tant que vous n'êtes pas sûr "
+"Merci de ne pas soumettre votre Proposition tant que vous n'êtes pas sûr "
 "que celle-ci soit correcte. Vous pouvez utiliser le <a href=\"%(link)s\">"
 " Forum </a> afin de discuter de la validité des mises à jour que vous "
 "pensez être nécessaires."
@@ -6768,21 +6686,27 @@ msgstr "Merci d'entrer une adresse PayPal valide"
 msgid "Please enter a valid Skrill address."
 msgstr "Merci d'entrer une adresse Skrill valide."
 
+msgid "Please enter a valid refund amount."
+msgstr ""
+
 msgid "Please go back and try again"
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Please have a quick refresh of the\n"
 "<a href=\"%(submission_guidelines_url)s\">Submission Guidelines</a>\n"
 "if you haven't checked them in the last month."
-msgstr "Guide pour les Propositions"
+msgstr ""
+"Merci de rafraîchir le <a href=\"%(submission_guidelines_url)s\">Guide "
+"pour les Propositions</a> si vous ne l'avez pas consulté depuis un mois."
 
-#, fuzzy
 msgid ""
 "Please have a quick refresh of the Submission Guidelines if you haven't "
 "checked them in the last month:"
-msgstr "Guide pour les Propositions"
+msgstr ""
+"Merci de rafraîchir le Guide pour les Propositions si vous ne l'avez pas "
+"consulté depuis un mois."
 
 msgid "Please include specific details relevant to your question or issue."
 msgstr ""
@@ -6858,12 +6782,6 @@ msgstr ""
 
 msgid "Please read our document on Copyright Infringement."
 msgstr "Merci de lire notre document relatif aux droits d'auteur."
-
-#, python-format
-msgid "Please see the help topic for <a href=\"%(link)s\">removing feedback</a>"
-msgstr ""
-"Merci de consulter l'Aide pour <a href=\"%(link)s\">supprimer une "
-"Evaluation</a>"
 
 msgid "Please select the reason that best describes your complaint."
 msgstr "Merci de sélectionner la raison qui décrit le mieux votre réclamation."
@@ -6956,7 +6874,6 @@ msgstr ""
 msgid "Press OK to report this %(what)s for fraudulent or abusive behavior."
 msgstr ""
 
-#, fuzzy
 msgid "Prev"
 msgstr "Prev"
 
@@ -6987,10 +6904,22 @@ msgstr "Aperçu de la réponse"
 msgid "Previous"
 msgstr "Précédent"
 
+msgid "Previous 24 hours"
+msgstr ""
+
 msgid "Previous Order"
 msgstr "Commande précédente"
 
 msgid "Previous State of Images"
+msgstr "Images précédentes"
+
+msgid "Previous month"
+msgstr ""
+
+msgid "Previous week"
+msgstr ""
+
+msgid "Previous year"
 msgstr ""
 
 msgid "Previously uploaded files"
@@ -7008,7 +6937,6 @@ msgstr "Historique des prix"
 msgid "Price Lowest"
 msgstr ""
 
-#, fuzzy
 msgid "Price Range"
 msgstr "Gamme de prix"
 
@@ -7037,9 +6965,8 @@ msgstr "Image principale"
 msgid "Print"
 msgstr ""
 
-#, fuzzy
 msgid "Print View"
-msgstr "Imprimer la page"
+msgstr "Imprimer"
 
 msgid "Privacy Policy"
 msgstr "Politique  de confidentialité"
@@ -7088,7 +7015,7 @@ msgstr "Paramètres du profil"
 msgid "Promote to Admin"
 msgstr "Informer l'Administrateur"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Promoted %s to group admin."
 msgstr "Administrateur du groupe informé de %s."
 
@@ -7134,22 +7061,22 @@ msgstr "Quitter ce groupe ?"
 
 #, python-format
 msgid "Quote %(start_tag)sSelection%(end_tag)s"
-msgstr ""
+msgstr "Encadrer votre %(start_tag)sSélection%(end_tag)s "
 
 msgid "Quote Previous"
-msgstr "Citation précédente"
+msgstr "Encadrer le précédent"
 
 msgid "Quote Selection"
-msgstr ""
+msgstr "Encadrer la sélection"
 
 msgid "Random Item"
 msgstr "Article au hasard"
 
 msgid "Rank"
-msgstr "Rang"
+msgstr "Classement"
 
 msgid "Rank Points"
-msgstr ""
+msgstr "Points de classement"
 
 msgid "Rate the buyer once for <strong>each order</strong>."
 msgstr "Notez l'acheteur une fois<strong>par commande</strong>."
@@ -7210,7 +7137,7 @@ msgid "Real Name %(optional)s"
 msgstr "Nom Civil %(optional)s"
 
 msgid "Really drop the banhammer on this user?"
-msgstr "Voulez-vous vraiment Blackliste cet utilisateur ?"
+msgstr "Voulez-vous vraiment blacklister cet utilisateur ?"
 
 msgid "Reason"
 msgstr "Raison"
@@ -7282,6 +7209,9 @@ msgstr "Rafraîchir"
 msgid "Refund Pending"
 msgstr "Remboursement en atttente"
 
+msgid "Refund Received"
+msgstr ""
+
 msgid "Refund Sent"
 msgstr "Remboursement envoyé"
 
@@ -7347,9 +7277,8 @@ msgid "Release Information"
 msgstr "Information de la référence"
 
 msgid "Release Notes"
-msgstr ""
+msgstr "Informations sur la Référence"
 
-#, fuzzy
 msgid "Release Submission Guidelines"
 msgstr "Guide pour les Propositions de Références"
 
@@ -7363,13 +7292,16 @@ msgid "Release not found."
 msgstr "Référence non trouvée."
 
 msgid "Released"
-msgstr ""
+msgstr "Date de sortie"
 
 msgid "Releases"
+msgstr "Références"
+
+msgid "Releases By Year"
 msgstr ""
 
 msgid "Releases Rated"
-msgstr ""
+msgstr "Références notées"
 
 msgid "Releases Recently Merged"
 msgstr "Propositions fusionnées récemment"
@@ -7383,11 +7315,8 @@ msgstr "Pertinence"
 msgid "Relist all Expired items"
 msgstr "Remettre les articles expirés dans la liste"
 
-#, python-format
-msgid "Relist this item"
-msgid_plural "Relist these %(n)d items"
-msgstr[0] "Remettre l'article en vente."
-msgstr[1] "Remettre les articles en vente"
+msgid "Relist item(s) For Sale"
+msgstr ""
 
 msgid ""
 "Remember: it is your responsibility to work with the buyer in arranging\n"
@@ -7509,22 +7438,21 @@ msgid_plural "Removed %d items from your wantlist"
 msgstr[0] "Supprimé : %d article de votre Wantlist"
 msgstr[1] "Supprimés : %d articles de votre Wantlist"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Removed %s's items from your cart."
 msgstr "%s's article(s) retiré(s) de votre panier."
 
 msgid "Removed Videos"
 msgstr "Vidéo supprimées"
 
-#, fuzzy
 msgid "Removed all items from your cart."
 msgstr "Tous les articles ont été retirés de votre panier."
 
 msgid "Removed ban."
-msgstr ""
+msgstr "Retiré de la blacklist."
 
 msgid "Removed from old version"
-msgstr ""
+msgstr "Retiré de la version précédente."
 
 msgid "Removed item from Wantlist."
 msgid_plural "Removed items from Wantlist."
@@ -7555,7 +7483,7 @@ msgstr "Dossier renommé"
 msgid "Replace"
 msgstr "Remplacer"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Replied to feedback on %s orders."
 msgstr "Réponse à l'Evaluation sur les commandes %s."
 
@@ -7632,11 +7560,8 @@ msgstr "Signaler un Avis ou un Commentaire"
 msgid "Report the image above"
 msgstr "Signaler l'image au-dessus"
 
-msgid "Request"
-msgstr "Demande"
-
 msgid "Request Data Export"
-msgstr ""
+msgstr "Lancer l'export"
 
 #, fuzzy
 msgid "Request Feedback Review"
@@ -7655,9 +7580,6 @@ msgstr "Demander un avis"
 #, fuzzy
 msgid "Request Token URL"
 msgstr "URL de jeton de requête"
-
-msgid "Request help from Discogs"
-msgstr "Demander de l'aide à Discogs"
 
 msgid "Required Fields"
 msgstr "Champs requis"
@@ -7695,7 +7617,7 @@ msgstr "Revenir à cette version"
 msgid "Review Changes"
 msgstr "Changement sur l'Avis"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Review our guidelines for <a href=\"%(selling_releases_href)s\" "
 "target=\"_blank\">Selling Unique Releases</a> and <a "
@@ -7704,8 +7626,8 @@ msgid ""
 msgstr ""
 "Vérifiez notre Guide pour<a href=\"%(selling_releases_href)s\" "
 "target=\"_blank\">Vendre un article unique</a>et<a "
-"href=\"%(listing_violations_href)s\" target=\"_blank\">Liste des "
-"infractions</a>."
+"href=\"%(listing_violations_href)s\" target=\"_blank\">la liste des "
+"Articles non acceptables</a>."
 
 msgid "Reviews"
 msgstr "Avis"
@@ -7863,7 +7785,7 @@ msgid "Search Similar"
 msgstr "Rechercher similaire"
 
 msgid "Search Submissions"
-msgstr "Cherchez une proposition"
+msgstr "Cherchez une Proposition"
 
 #, fuzzy
 msgid "Search Wantlist"
@@ -7921,7 +7843,7 @@ msgid "Search the database using these fields"
 msgstr "Rechercher dans la base de données en utilisant les champs suivants"
 
 msgid "Search this board"
-msgstr ""
+msgstr "Recherchez dans ce groupe"
 
 msgid "Searching for"
 msgstr "Recherche pour"
@@ -7942,7 +7864,7 @@ msgid ""
 msgstr "Guide pour les Propositions"
 
 msgid "Security Assurance"
-msgstr ""
+msgstr "Garantie de sécurité"
 
 #, python-format
 msgid "See %(n)s reply"
@@ -7965,8 +7887,8 @@ msgstr "Voir plus de vidéos"
 
 #, python-format
 msgid ""
-"See our <a class=\"new_window\" href=\"%(link)s\">guide to setting up "
-"your shipping policies.</a>"
+"See our <a target=\"_blank\" href=\"%(link)s\">guide to setting up your "
+"shipping policies.</a>"
 msgstr ""
 
 msgid "Select"
@@ -8020,7 +7942,7 @@ msgid "Sell %(format)s"
 msgstr "Vendre %(format)s"
 
 msgid "Sell Copy"
-msgstr ""
+msgstr "Vendre votre copie."
 
 msgid "Sell Item"
 msgstr "Vendre l'article"
@@ -8042,6 +7964,9 @@ msgstr "Vendre cet article"
 
 msgid "Sell this item"
 msgstr "Vendre cet article"
+
+msgid "Sell to a community of music lovers"
+msgstr ""
 
 msgid "Sell-Blocked Releases"
 msgstr "Références indisponibles à la vente"
@@ -8089,7 +8014,7 @@ msgstr ""
 "votre compte pour sa réactivation."
 
 msgid "Seller Promo"
-msgstr ""
+msgstr "Bons plans du vendeur"
 
 msgid "Seller Settings"
 msgstr "Paramètres Vendeur"
@@ -8101,10 +8026,7 @@ msgid "Seller Terms"
 msgstr "Règles du vendeur"
 
 msgid "Seller To Provide"
-msgstr ""
-
-msgid "Seller changed this item's price on"
-msgstr "Le Vendeur a changé le prix de l'article le"
+msgstr "Facture du Vendeur bientôt disponible."
 
 msgid "Seller has NOT archived this Order"
 msgstr "Le Vendeur n'a PAS archivé cette Commande"
@@ -8123,19 +8045,17 @@ msgstr "Le Vendeur a répondu sur la Commande #%(order_id)s"
 msgid "Seller not responding?"
 msgstr "Pas de réponse du vendeur ?"
 
-#, fuzzy
 msgid "Seller rating"
-msgstr "Note attribuée au Vendeur"
+msgstr "Votre note Vendeur"
 
 msgid "Seller to provide"
-msgstr ""
+msgstr "Facture du Vendeur bientôt disponible."
 
 msgid "Seller's Agreement"
 msgstr "Conditions générales de vente"
 
-#, fuzzy
 msgid "Seller's Shipping Information"
-msgstr "Mode et tarif d'expédion des Vendeurs"
+msgstr "Mode et tarif d'expédition du Vendeur"
 
 msgid "Seller: "
 msgstr ""
@@ -8146,7 +8066,7 @@ msgstr "Vendre de la Musique"
 msgid "Selling Unique Releases"
 msgstr "Vendre une Référence unique"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Selling options have been disabled on your account. Please check the <a "
 "href=\"%s\">billing page</a> to ensure you don't have any past due "
@@ -8180,6 +8100,9 @@ msgstr "Envoyer un message"
 msgid "Send Message to Staff"
 msgstr "Envoyer un message à notre équipe"
 
+msgid "Send Refund"
+msgstr ""
+
 msgid "Send a message"
 msgstr "Envoyer un message"
 
@@ -8206,13 +8129,15 @@ msgid "Send reply"
 msgstr "Réponse envoyée"
 
 msgid "Sent"
-msgstr "Envoyer"
+msgstr "Envoyés"
 
-#, fuzzy
+msgid "Sent refund for {0}{1:.2f}"
+msgstr ""
+
 msgid ""
 "Separate by space or one per line. These buyers will not be able to make "
 "purchases from you."
-msgstr "Séparer par des espaces, ou une occurence par ligne. "
+msgstr "Séparer par des espaces, ou une occurence par ligne."
 
 msgid "Series"
 msgstr "Series"
@@ -8303,7 +8228,7 @@ msgid "Shop"
 msgstr ""
 
 msgid "Shop for"
-msgstr ""
+msgstr "Achetez des"
 
 msgid "Shopping Cart"
 msgstr "Panier d'achat"
@@ -8371,7 +8296,6 @@ msgstr "Aperçu des messages supprimé"
 msgid "Showing only %(type)s ratings."
 msgstr "Voir seulement les notes %(type)s."
 
-#, fuzzy
 msgid "Sign Up"
 msgstr "S'inscrire"
 
@@ -8414,7 +8338,6 @@ msgstr "Vendu"
 msgid "Sold by"
 msgstr "Vendu par"
 
-#, fuzzy
 msgid "Sold in"
 msgstr "Vendu chez"
 
@@ -8427,6 +8350,16 @@ msgstr ""
 "taille importante. Le maximum autorisé est de %0.2f MB."
 
 msgid ""
+"Some items could not be marked for sale because MP3 or other primarily "
+"file-based releases cannot be sold in the Marketplace"
+msgstr ""
+
+msgid ""
+"Some items could not be marked for sale because their submissions have "
+"been marked as drafts"
+msgstr ""
+
+msgid ""
 "Some items could not be marked for sale because they can no longer be "
 "sold on the Marketplace"
 msgstr ""
@@ -8437,6 +8370,9 @@ msgid ""
 msgstr ""
 "Certains articles ne peuvent être sélectionnés parce qu'ils ont déjà été "
 "vendus"
+
+msgid "Some items could not be marked for sale because they have an invalid price"
+msgstr ""
 
 msgid "Sorry, but you are not allowed to post reviews."
 msgstr "Désolé, vous n'êtes pas autorisé à poster un Avis."
@@ -8531,7 +8467,7 @@ msgstr "Statistiques pour"
 msgid "Status"
 msgstr "Statut"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Step %(pagestep)s of 3"
 msgstr "%(pagestep)s sur 3"
 
@@ -8543,9 +8479,6 @@ msgstr "Pas encore trouvé ce que vous cherchez ?"
 
 msgid "Stop Notifying Me"
 msgstr "Arrêter de me notifier"
-
-msgid "Stop impersonating"
-msgstr ""
 
 msgid "Stop notifying"
 msgstr "Arrêter les notifications"
@@ -8578,10 +8511,10 @@ msgid "Submission Guidelines"
 msgstr "Guide pour les Propositions"
 
 msgid "Submission Notes"
-msgstr "Notes de la Proposition"
+msgstr "Notes sur la Proposition"
 
 msgid "Submission Notes (Required)"
-msgstr "Notes de la Proposition (obligatoire)"
+msgstr "Notes sur la Proposition (obligatoire)"
 
 msgid "Submissions"
 msgstr "Propositions"
@@ -8598,7 +8531,7 @@ msgid "Submissions for label %s"
 msgstr "Propositions pour le label %s"
 
 msgid "Submissions from List (past 90 days):"
-msgstr ""
+msgstr "Propositions sur la liste (sur les 90 derniers jours) :"
 
 msgid "Submissions from user"
 msgstr "Propositions de l'utilisateur"
@@ -8616,15 +8549,20 @@ msgstr "Soumettre des modifications sur la page de l'Artiste"
 msgid "Submit Changes to Label Page"
 msgstr "Soumettre des modifications sur la page du label"
 
-#, fuzzy
 msgid "Submit Feedback"
-msgstr "Soumettre une évaluation"
+msgstr "Soumettre une Evaluation"
 
 msgid "Submit Offer"
 msgstr "Soumettre une Offre"
 
 msgid "Submit Request"
 msgstr "Soumettre une Demande"
+
+msgid "Submit a release from your collection that can't be found in the Database."
+msgstr ""
+
+msgid "Submit a release to Discogs if you can't find what you're looking for."
+msgstr ""
 
 msgid "Submitter"
 msgstr "Expéditeur"
@@ -8672,15 +8610,12 @@ msgid "Sucessfully removed entry."
 msgstr "Entrée supprimée avec succès."
 
 msgid "Summary"
-msgstr "Sommaire"
-
-msgid "Support Request"
-msgstr "Demande d'aide"
+msgstr "Détail"
 
 msgid "Support Request #"
 msgstr "Demande d'aide #"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Switch to <a href=\"%(link)s\">browser view</a>"
 msgstr "Passer en <a href=\"%(link)s\">vue navigateur</a>"
 
@@ -8688,9 +8623,8 @@ msgstr "Passer en <a href=\"%(link)s\">vue navigateur</a>"
 msgid "Switch to <a href=\"%(link)s\">flat view</a>"
 msgstr "Passer en <a href=\"%(link)s\">affichage pleine page</a>"
 
-#, fuzzy
 msgid "Switch to mobile layout"
-msgstr "Accéder à la version mobile du site"
+msgstr "Version mobile"
 
 msgid "Tab A"
 msgstr ""
@@ -8736,7 +8670,7 @@ msgid "Tell us how we can improve this page."
 msgstr "Dites nous comment améliorer cette page."
 
 msgid "Terms of Service"
-msgstr "Termes du service"
+msgstr "Conditions générales"
 
 msgid "Test all hyperlinks and make sure they link to the correct artist/label."
 msgstr ""
@@ -8747,10 +8681,10 @@ msgid "Text Only"
 msgstr "Texte seulement"
 
 msgid "Text With Covers"
-msgstr ""
+msgstr "Mode textes avec pochettes"
 
 msgid "Text With Statistics"
-msgstr ""
+msgstr "Mode texte avec statistiques"
 
 msgid "Thank you"
 msgstr "Merci"
@@ -8765,6 +8699,11 @@ msgstr "Merci d'avoir choisi de vendre sur la Marketplace Discogs."
 msgid ""
 "Thank you for choosing to sell through the Discogs Marketplace! We've "
 "applied a <strong>$%s credit</strong> to your account."
+msgstr ""
+"Merci d'avoir choisi de vendre sur la Marketplace Discogs ! Un crédit de "
+"<strong>$%s</strong>à été ajouté à votre compte."
+
+msgid "Thank you for confirming your refund!"
 msgstr ""
 
 #, fuzzy, python-format
@@ -8899,7 +8838,6 @@ msgstr "Cet article est déjà dans cette liste."
 msgid "That name is already in use. Please choose a different one."
 msgstr "Nom d'utilisateur existant. Merci d'en proposer un nouveau."
 
-#, fuzzy
 msgid "That review does not exist."
 msgstr "Cet Avis n'existe pas."
 
@@ -8940,7 +8878,7 @@ msgid "The Marketplace"
 msgstr " La Marketplace"
 
 msgid "The Standard Criteria"
-msgstr ""
+msgstr "Critères Standards"
 
 msgid "The Story"
 msgstr "Histoire"
@@ -9045,8 +8983,8 @@ msgid ""
 " put information here that isn't eligible for the public database &ndash;"
 " for example, home made CD compilations."
 msgstr ""
-"Les pages de brouillons vous permettent de compléter au mieux vos "
-"nouvelles propositions avant de les soumettre. Les Propositions soumises "
+"Les pages de Brouillons vous permettent de compléter au mieux vos "
+"nouvelles Propositions avant de les soumettre. Les Propositions soumises "
 "mais retirées de la base de données sont aussi conservées dans cette "
 "section. Il est aussi possible de répertorier ici des Propositions qui ne"
 " sont pas éligibles pour accès public sur la base de données & ndash; par"
@@ -9072,19 +9010,19 @@ msgstr ""
 "Le fichier image que vous avez téléchargé n'était pas valide et ne peut "
 "être utilisé."
 
-#, fuzzy, python-format
+#, python-format
 msgid "The file you uploaded was too big. Please submit an image smaller than %s."
 msgstr ""
 "Fichier téléchargé trop volumineux. Merci de télécharger une image plus "
 "petite que %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The file you uploaded was too small. Please submit an image larger than "
 "%d pixels wide."
 msgstr ""
-"Le fichier que vous avez téléchargé est trop petit. Merci de télécharger "
-"une image de plus de %d pixels de largeur."
+"Fichier téléchargé trop petit. Merci de télécharger une image de plus de "
+"%d pixels de largeur."
 
 msgid "The following artists are new to the database:"
 msgstr "Nouveaux artistes dans la base de données :"
@@ -9139,11 +9077,9 @@ msgstr ""
 
 #, python-format
 msgid ""
-"The image file %s was too big to upload. We do not allow images wider "
-"than %s or larger than %s."
+"The image file %s was too big to upload. We do not allow images larger "
+"than %s."
 msgstr ""
-"Fichier image %s trop grand pour être téléchargé. Les fichiers plus "
-"larges que %s ou supérieurs à %s, ne sont pas autorisés."
 
 #, python-format
 msgid ""
@@ -9153,7 +9089,6 @@ msgstr ""
 "Fichier image %s trop petit pour être téléchargé. Les images doivent "
 "avoir une largeur d'au moins %s."
 
-#, fuzzy
 msgid ""
 "The information you entered is correct, but you don't have a PayPal "
 "Verified account. Buyers feel more confident doing business with PayPal "
@@ -9162,9 +9097,8 @@ msgid ""
 msgstr ""
 "Les informations que vous avez enregistrées sont correctes, toutefois "
 "vous n'avez pas de compte PayPal vérifié. Les acheteurs font plus "
-"confiance aux vendeurs possédant un compte PayPal Verifiés."
+"confiance aux Vendeurs possédant un compte PayPal Vérifié."
 
-#, fuzzy
 msgid ""
 "The invoice will be marked as paid after PayPal authorizes the "
 "transaction. If you paid via eCheck or bank transfer there will be a "
@@ -9234,12 +9168,14 @@ msgstr ""
 " d'expédition. Sinon vous devez, en tant que vendeur, saisir manuellement"
 " la facure correspondante."
 
-#, fuzzy
 msgid ""
 "The payment has been made and will be confirmed by the seller shortly. If"
 " the payment clears but is not confirmed by the seller, please message "
 "them directly."
-msgstr "Le paiement a été effectué et sera confirmé par le Vendeur rapidement."
+msgstr ""
+"Le paiement a été effectué et sera confirmé rapidement par le Vendeur. Si"
+" le paiement est accepté mais non confirmé par le Vendeur, merci de lui "
+"envoyer un message directement Via la page de Commande,  "
 
 msgid ""
 "The provided password reset token was invalid or has expired. If you wish"
@@ -9298,28 +9234,28 @@ msgstr ""
 "Le Vendeur a confirmé la réception du paiement pour cette Commande. Le "
 "Vendeur prépare actuellement la Commande pour l'expédier !"
 
-#, python-format
-msgid ""
-"The seller has issued a full refund for the purchase price of <a "
-"href=\"%(order_url)s\">Order #%(order_id)s</a>."
-msgstr ""
-"Le Vendeur a effectué un remboursement intégral sur le prix d'achat de <a"
-" href=\"%(order_url)s\">la Commande#%(order_id)s</a>."
-
-#, python-format
-msgid ""
-"The seller has issued a full refund for the purchase price of Order "
-"#%(order_id)s:"
-msgstr ""
-"Le Vendeur a effectué un remboursement complet sur le prix de la Commande"
-" #%(order_id)s :"
-
 msgid ""
 "The seller has issued a full refund for the purchase price of this order."
 " Have you received the refund yet?"
 msgstr ""
 "Le Vendeur a effectué un remboursement complet sur le prix de cette "
 "Commande. Avez-vous déjà reçu ce remboursement ?"
+
+#, python-format
+msgid ""
+"The seller has issued a refund for the purchase of <a "
+"href=\"%(order_url)s\">Order #%(order_id)s</a>."
+msgstr ""
+
+#, python-format
+msgid "The seller has issued a refund for the purchase of Order #%(order_id)s:"
+msgstr ""
+
+#, python-format
+msgid ""
+"The seller has issued a refund in the amount of %(symbol)s %(amount)s. "
+"Have you received the refund yet?"
+msgstr ""
 
 msgid ""
 "The seller has merged this order with one or more orders with the same "
@@ -9412,7 +9348,7 @@ msgstr ""
 " l'Acheteur."
 
 msgid "The specified list does not exist."
-msgstr "Cette liste spécifique n'existe pas. "
+msgstr "Cette liste spécifique n'existe pas."
 
 msgid "The state of this order cannot be modified as it has been Archived."
 msgstr ""
@@ -9511,7 +9447,7 @@ msgstr ""
 msgid "There was a problem loading the data"
 msgstr "Problème : les données n'ont pas été si téléchargées correctement."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "There was a problem loading this module.<br> Try enabling it using the "
 "\"%s\" button."
@@ -9551,40 +9487,28 @@ msgstr ""
 "modifications. Merci d'essayer à nouveau."
 
 msgid "There were errors with your submission."
-msgstr "Il y avait des erreurs sur votre proposition."
+msgstr "Erreurs sur votre Proposition."
 
+#, python-format
 msgid ""
 "There's no doubt that the staff at London-based <a "
-"href=\"http://www.discogs.com/user/flashbacklondon?q=u:flashbacklondon\">Flash"
-" Back Records</a> are serious about their music. While they of course "
-"love collecting and listening to records, they also maintain active "
-"careers as musicians, performing and recording in various groups. Flash "
-"Back opened their first shop in London in 1997, expanding into the Crouch"
-" End area with a second shop in 2006. Flash Back Records has been a "
-"strong member of the Discogs community since 2011, with a <a "
-"href=\"http://www.discogs.com/seller/flashbacklondon\">marketplace</a> "
+"href=\"%(profile)s\">Flash Back Records</a> are serious about their "
+"music. While they of course love collecting and listening to records, "
+"they also maintain active careers as musicians, performing and recording "
+"in various groups. Flash Back opened their first shop in London in 1997,"
+"\n"
+"                        expanding into the Crouch End area with a second "
+"shop in 2006. Flash Back Records has been a strong member of the Discogs "
+"community since 2011, with a <a href=\"%(seller)s\">marketplace</a> "
 "that's sure to please Rock fans, while also offering a great stock of "
 "records for other tastes."
 msgstr ""
-"Il n'y a aucun doute que l'équipe Londonienne de <a "
-"href=\"http://www.discogs.com/user/flashbacklondon?q=u:flashbacklondon\">Flash"
-" Back Records</a> est des plus compétentes en terme de musique. "
-"Collectionneurs et affamés de disques, ils sont aussi d'actifs musiciens "
-"tournant et enregistrant pour de nombreux goupes. La première boutique "
-"Flash Back a été ouverte à Londres en 1997, puis une seconde a vu le jour"
-" en 2006 dans le quartier de Crouch End. Flash Back Records est un membre"
-" important de la communauté Discogs depuis 2011, avec un <a "
-"href=\"http://www.discogs.com/seller/flashbacklondon\">catalogue</a> qui "
-"plaira forcément au fans de rock, tout en offrant un choix varié dans les"
-" autres genres."
 
 msgid "There's nothing going on in your groups at the moment."
 msgstr "Il n'y a pas d'activité sur vos groupes actuellement."
 
 msgid "These listings will be marked \"For Sale\" immediately."
-msgstr ""
-"Les articles de cette liste seront  sélectionnés \"À vendre\" "
-"immédiatement."
+msgstr "Les articles de cette liste seront  mis en vente immédiatement."
 
 msgid "Things to Note"
 msgstr "Choses à noter"
@@ -9597,7 +9521,7 @@ msgid ""
 "\n"
 "contributions."
 msgstr ""
-"Troisièmement, vous devez examiner et améliorer vos propositions en "
+"Troisièmement, vous devez examiner et améliorer vos Propositions en "
 "attente, afin qu'elles soient correctes. Si cela n'est pas possible, vous"
 " pouvez également faire de nouvelles contributions."
 
@@ -9607,7 +9531,7 @@ msgid ""
 " order to make them correct. If this isn't possible, you can also make "
 "new contributions."
 msgstr ""
-"Troisièmement, vous devez examiner et améliorer vos propositions en "
+"Troisièmement, vous devez examiner et améliorer vos Propositions en "
 "attente afin qu'elles soient correctes. Si cela n'est pas possible, vous "
 "pouvez également faire de nouvelles contributions."
 
@@ -9647,7 +9571,7 @@ msgstr ""
 msgid ""
 "This artist is used as a placeholder entry and does not link to any "
 "artist."
-msgstr ""
+msgstr "Ce nom d'artiste est fictif et n'est lié à aucun autre nom d'artiste."
 
 msgid "This document is also available in these languages: "
 msgstr "Ce document est aussi disponible dans cette langue : "
@@ -9682,6 +9606,9 @@ msgid ""
 "This is a legacy Duration value,<br />shown so it can be converted to<br "
 "/>the new Index Track feature.<br />Headings do not support Durations."
 msgstr ""
+"Il s'agit de la durée valide, <br /> elle peut être ainsi convertie dans "
+"le nouveau track-listing.<br />. Ne pas mettre de durée sur les titres "
+"des Références."
 
 msgid ""
 "This is useful if you are going on vacation or simply want to halt all "
@@ -9830,9 +9757,6 @@ msgid ""
 msgstr ""
 "Cette fonction utilise les informations enregistrées dans la base de "
 "données Discogs pour estimer le poids de l'article à expédier."
-
-msgid "This version of the API was shut down on 15 January 2012."
-msgstr "Cette version de l'API A été fermée le 15 janvier 2012."
 
 msgid "Thread is locked and cannot be replied to."
 msgstr "Ce fil de discussion est verrouillé."
@@ -10003,7 +9927,10 @@ msgid "Toggle User Menu"
 msgstr "Basculer vers le menu utilisateur"
 
 msgid "Tools for managing sales listings."
-msgstr "Outils de gestion des liste de vente."
+msgstr "Outils de gestion des listes de vente."
+
+msgid "Top Submitters"
+msgstr ""
 
 #, python-format
 msgid "Top results matching \"%(query)s\""
@@ -10047,7 +9974,7 @@ msgid "Track Title"
 msgstr "Nom du titre"
 
 msgid "Track your music"
-msgstr ""
+msgstr "Classez votre discothèque"
 
 msgid "Tracklist"
 msgstr "Tracklisting"
@@ -10067,7 +9994,6 @@ msgstr ""
 "Essayer la dernière version de %(chrome_link)s, %(firefox_link)s, ou "
 "mettez à jour la dernière version d'Internet Explorer."
 
-#, fuzzy
 msgid "Try unchecking one of these fields"
 msgstr "Essayez de désélectionner un de ces champs."
 
@@ -10107,11 +10033,9 @@ msgstr "URLs %(optional)s"
 msgid "US Dollars only."
 msgstr "Dollars US seulement."
 
-#, fuzzy
 msgid "Un-Archive"
 msgstr "Désarchiver"
 
-#, fuzzy
 msgid "Un-Save Thread"
 msgstr "Ne pas sauvegarder ce fil de discussion"
 
@@ -10132,14 +10056,13 @@ msgstr "Désarchiver la commande"
 msgid "Unarchive Purchase"
 msgstr "Désarchiver l'achat"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Unarchived %s orders."
-msgstr "Commandes %s désarchivées"
+msgstr "Commandes %s non archivées."
 
 msgid "Unblock"
 msgstr "Débloquer"
 
-#, fuzzy
 msgid "Unblocked user"
 msgid_plural "Unblocked users"
 msgstr[0] "Utilisateur débloqué"
@@ -10157,11 +10080,9 @@ msgstr "Ne plus ignorer"
 msgid "Unknown"
 msgstr "Inconnu"
 
-#, fuzzy
 msgid "Unlist"
 msgstr "Retirer de la liste"
 
-#, fuzzy
 msgid "Unlist Item"
 msgstr "Retirer l'Article de la vente"
 
@@ -10170,7 +10091,7 @@ msgid ""
 "Unlisted item(s). The item(s) will be removed from our browse/search "
 "pages within %d minutes."
 msgstr ""
-"Article(s) retiré(s) de la liste. Le où les articles seront retirés de "
+"Article(s) retiré(s) de la vente. Le où les articles seront retirés de "
 "nos pages et du moteur de recherche sous un délai de %d minutes."
 
 msgid "Unlocked topic"
@@ -10180,7 +10101,7 @@ msgid "Unpaid Invoices"
 msgstr "Factures non payées"
 
 msgid "Unread"
-msgstr "Non lu"
+msgstr "Non lus"
 
 msgid "Unread Message"
 msgstr "Message non lu"
@@ -10188,7 +10109,6 @@ msgstr "Message non lu"
 msgid "Unread Messages"
 msgstr "Messages non lus"
 
-#, fuzzy
 msgid "Unshare This"
 msgstr "Annuler le partage de"
 
@@ -10202,27 +10122,21 @@ msgstr "Application sans titre"
 msgid "Update %(username)s on the status of their order"
 msgstr "Mettre à jour le statut de la commande de %(username)s."
 
-#, fuzzy
 msgid "Update Images"
 msgstr "Mise à jour des images"
 
-#, fuzzy
 msgid "Update Label Profile"
 msgstr "Mise à jour du profil du label"
 
-#, fuzzy
 msgid "Update Order"
 msgstr "Mise à jour de la commande"
 
-#, fuzzy
 msgid "Update Videos for"
 msgstr "Mise à jour des vidéos pour"
 
-#, fuzzy
 msgid "Update email address"
 msgstr "Mise à jour de l'adresse e-mail"
 
-#, fuzzy
 msgid "Update image"
 msgstr "Mise à jour de l'image"
 
@@ -10230,11 +10144,9 @@ msgstr "Mise à jour de l'image"
 msgid "Update these images"
 msgstr "Mise à jour de ces images"
 
-#, fuzzy
 msgid "Update videos"
 msgstr "Mise à jour des vidéos"
 
-#, fuzzy
 msgid "Updated"
 msgstr "Mise à jour effectuée"
 
@@ -10242,7 +10154,7 @@ msgstr "Mise à jour effectuée"
 msgid "Updated %d order to %s."
 msgid_plural "Updated %d orders to %s."
 msgstr[0] "%d Commande mise à jour le %s."
-msgstr[1] ""
+msgstr[1] "%d Commandes mises à jour le %s."
 
 msgid "Updated artist profile"
 msgstr "Mise à jour du profil de l'artiste effectuée"
@@ -10272,23 +10184,18 @@ msgstr "Téléchargement du fichier au format .csv"
 msgid "Upload Image"
 msgstr "Téléchargement de l'image"
 
-#, fuzzy
 msgid "Upload New Image"
 msgstr "Téléchargement de la nouvelle image"
 
-#, fuzzy
 msgid "Upload Photo"
 msgstr "Téléchargement de la photo"
 
-#, fuzzy
 msgid "Upload Status"
 msgstr "Téléchargement du statut"
 
-#, fuzzy
 msgid "Upload a wide, high quality JPG"
 msgstr "Téléchargement d'un fichier .jpg haute qualité"
 
-#, fuzzy
 msgid "Upload and process file"
 msgstr "Téléchargement et traitement d'un fichier"
 
@@ -10396,6 +10303,9 @@ msgid ""
 "Verify that what you are listing matches the <a href=\"%(href)s\" "
 "target=\"_blank\">release page</a> exactly."
 msgstr ""
+"Vérifiez que l'article que vous mettez en vente corresponde exactement à "
+"celui <a href=\"%(href)s\" target=\"_blank\">de la page de la "
+"Référence</a>."
 
 #, fuzzy
 msgid "Verify the item matches the information on"
@@ -10422,18 +10332,14 @@ msgstr ""
 "href=\"%(second_link)s\">Guide pour les Posts</a>"
 
 #, python-format
-msgid "View <a href=\"%(link)s\" class=\"new_window\"> formatting options</a>."
+msgid "View <a href=\"%(link)s\" target=\"_blank\"> formatting options</a>."
 msgstr ""
-"Voir les <a href=\"%(link)s\" class=\"new_window\"> Options de "
-"formatage</a>."
 
 #, python-format
 msgid ""
-"View <a href=\"%(link)s\" class=\"new_window\">formatting options</a>. No"
-" images allowed."
+"View <a href=\"%(link)s\" target=\"_blank\">formatting options</a>. No "
+"images allowed."
 msgstr ""
-"Voir les <a href=\"%(link)s\" class=\"new_window\"> Options de "
-"formatage</a>. Images non autorisées."
 
 #, fuzzy, python-format
 msgid "View <a href=\"%(link)s\">formatting codes</a>"
@@ -10470,7 +10376,7 @@ msgid "View Shipping and Payment Information"
 msgstr "Voir les informations d'expédition et de paiement"
 
 msgid "View Submissions"
-msgstr "Voir les propositions"
+msgstr "Voir les Propositions"
 
 msgid "View additional popular groups"
 msgstr "Voir les groupes les plus populaires"
@@ -10493,13 +10399,10 @@ msgid "View complete sales history"
 msgstr "Voir l'historique complet des ventes effectuées"
 
 msgid "View current submissions by:"
-msgstr "Voir les propositions actuelles de :"
+msgstr "Voir les Propositions actuelles de :"
 
 msgid "View details"
 msgstr "Voir les détails"
-
-msgid "View documentation for API v2"
-msgstr "Voir la documentation pour l'API v2"
 
 msgid "View feedback on buyer"
 msgstr "Voir l'Evaluation de l'acheteur"
@@ -10513,7 +10416,6 @@ msgstr "Voir les Options de formatage"
 msgid "View group activity"
 msgstr "Voir l'activité du groupe"
 
-#, fuzzy
 msgid "View in admin"
 msgstr "Affichage en mode adminstrateur"
 
@@ -10596,9 +10498,8 @@ msgstr "Voir les références en vente"
 msgid "View results"
 msgstr "Voir les résultats"
 
-#, fuzzy
 msgid "View submissions browser"
-msgstr "Voir la page des propositions"
+msgstr "Voir la page des Propositions"
 
 msgid "View this list"
 msgstr "Voir cette liste"
@@ -10616,7 +10517,7 @@ msgid "View your inventory"
 msgstr "Voir votre inventaire"
 
 msgid "View your listing"
-msgstr "Voir votre listing Des"
+msgstr "Voir votre listing"
 
 msgid "View your support requests"
 msgstr "Voir vos demandes d'aide"
@@ -10751,6 +10652,14 @@ msgstr "Nous sommes désolés de vous voir quitter Discogs !"
 msgid "We are unable to redirect you to the originating site"
 msgstr ""
 
+#, python-format
+msgid ""
+"We are writing to inform you that %(username)s\n"
+"has been banned from the site at this time. It is advised you do not "
+"continue\n"
+"the transaction with them."
+msgstr ""
+
 msgid "We couldn't find anything in the Discogs database for"
 msgstr "Nous ne trouvons pas d'occurrences sur la base de donnée Discogs pour"
 
@@ -10764,7 +10673,6 @@ msgstr ""
 "Images au format \"CMYK\" actuellement non supportée, merci de convertir "
 "l'image au format RGB puis essayer de nouveau."
 
-#, fuzzy
 msgid ""
 "We currently do not support images in \"Palette\" mode, please convert "
 "the image to RGB mode and try again."
@@ -10772,13 +10680,12 @@ msgstr ""
 "Images au format \"Palette\" actuellement non supportée, merci de "
 "convertir l'image au format RGB puis essayer de nouveau."
 
-#, fuzzy
 msgid "We did not find an existing banner to modify, upload one first."
 msgstr ""
 "Nous ne trouvons pas de bannière existante à modifier, téléchargez-en une"
 " d'abord."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "We do not offer refunds, but can issue a fee credit toward your next "
 "invoice\n"
@@ -10789,11 +10696,12 @@ msgid ""
 "(ie, \"buy 1 get 1 free\"; \"x% off\"; etc...)."
 msgstr ""
 "Nous ne pouvons pas faire une offre de remboursement sur les commandes "
-"annulées et datées de plus de 90 jours. Toutefois, nous reporterons le "
-"crédit correspondant sur votre prochaine facture de Commission Discogs. "
-"Les crédits sur commission ne peuvent être attribués aux vendeurs qui "
-"modifient leur prix après avoir accepté une commande (exemple : \"1 "
-"acheté - 1 offert\", \"x de remise\", etc...)"
+"annulées et datées de plus de 90 jours.\n"
+"\" \"Toutefois, nous reporterons le crédit correspondant sur votre "
+"prochaine facture de Commission Discogs.\n"
+"Les crédits sur commission ne peuvent être attribués aux Vendeurs qui "
+"modifient leur prix après avoir accepté une commande\n"
+"(exemple : \"1 acheté - 1 offert\", \"x% de remise\", etc...)"
 
 msgid "We don't post anything to Facebook or Google without your permission."
 msgstr ""
@@ -10804,7 +10712,7 @@ msgid "We found possible duplicate releases:"
 msgstr "Il est possible que ces Références soient des doublons : "
 
 msgid "We found some new submissions related to some of your lists."
-msgstr "De nouvelles soumissions relatives aux listes ont été trouvées."
+msgstr "De nouvelles Propositions relatives a vos listes ont été trouvées."
 
 msgid "We found the following"
 msgstr "Nous avons trouvé l'occurrence suivante"
@@ -10846,7 +10754,6 @@ msgstr ""
 "Nous partageons la même passion : écouter, créer, et parfaire sa culture "
 "musicale."
 
-#, fuzzy
 msgid ""
 "We think you may be using some incorrect artists. Please double-check "
 "these to make sure you are using the correct artist:"
@@ -10993,9 +10900,9 @@ msgid ""
 "it's advised you do not continue the transaction with them."
 msgstr ""
 "Nous avons annulé la commande de %(username)s effectuée récemment et "
-"remis votre ou vos article(s) en vente. L'utilisateur a été banni du site"
-" et nous vous recommandons de ne pas continuer d'engager des transactions"
-" avec lui."
+"remis votre ou vos article(s) en vente. L'utilisateur a été blacklisté "
+"sur le site  et nous vous recommandons de ne pas continuer d'engager des "
+"transactions avec lui."
 
 #, python-format
 msgid ""
@@ -11005,9 +10912,16 @@ msgid ""
 "advised you do not continue the transaction with them."
 msgstr ""
 "Nous avons annulé la commande de %(username)s effectuée récemment et "
-"remis votre ou vos article(s) en vente. L'utilisateur a été banni du site"
-" et nous vous recommandons de ne pas continuer d'engager des transactions"
-" avec lui."
+"remis votre ou vos article(s) en vente. L'utilisateur a été blacklisté "
+"sur le site  et nous vous recommandons de ne pas continuer d'engager des "
+"transactions avec lui."
+
+#, python-format
+msgid ""
+"We've cancelled the order(s) you recently received from %(username)s\n"
+"at this time. This user has been banned from the site and\n"
+"it's advised you do not continue the transaction with them."
+msgstr ""
 
 msgid ""
 "We've contacted the seller regarding this order; check your inbox for "
@@ -11024,8 +10938,9 @@ msgstr ""
 "discussion avec lui si vous avez des questions supplémentaires ou des "
 "remarques."
 
-msgid "We've sent an activation e-mail to"
-msgstr "Nous avons envoyer un e-mail pour l'activation sur"
+#, python-format
+msgid "We've sent an activation e-mail to <strong>%(email)s</strong>."
+msgstr ""
 
 msgid ""
 "We've suspended the seller's account, pending their response. If the "
@@ -11052,34 +10967,26 @@ msgstr "Le poids ne peut être négatif."
 msgid "Welcome back, %(token_username)s. We're almost done here."
 msgstr "Ravis de vous revoir, %(token_username)s. Nous sommes toujours là."
 
-msgid "Welcome to the Discogs community!"
-msgstr "Bienvenue dans la communauté Discogs !"
+msgid "Welcome to Discogs!"
+msgstr ""
+
+msgid "What can I do on Discogs?"
+msgstr ""
 
 msgid "What can you do with your new Discogs account?"
 msgstr "Que pouvez-vous faire avec votre nouveau compte Discogs ?"
 
-#, fuzzy
+#, python-format
 msgid ""
 "What do you get when you take one vinyl record fan and combine them with "
 "other vinyl afficionados needing to part with their collections? You get "
 "someone like Brighton, U.K. -based Energy Flash, whose collection of over"
 " 110,000 items is the perfect testament to a true collector's love of "
-"vinyl collectors. For <a "
-"href=\"http://www.discogs.com/user/richnrgflash?q=u:richnrgflash\">Energy"
-" Flash</a>, records are more than just a medium for music – each "
-"collection has a story to tell, and he loves the way each record adds to "
-"the story of his own collection."
+"vinyl collectors. For <a href=\"%(profile)s\">Energy Flash</a>, records "
+"are more than just a medium for music – each collection has a story to "
+"tell, and he loves the way each record adds to the story of his own "
+"collection."
 msgstr ""
-"Que se passe-t-il lorsqu'un fan de vinyls recontres d'autres afficionados"
-" qui souhaitent se séparer de leur collection ? Vous obtenez quelqu'un "
-"comme Energy Flash de Brighton, dont la collection de plus de 110 000 "
-"références est le refuge parfait parfait pour les collectionneurs de "
-"vinyles. Pour <a "
-"href=\"http://www.discogs.com/user/richnrgflash?q=u:richnrgflash\"> "
-"Energy Flash </a>, les disques sont qu'un simple support de musique - "
-"Chacune de ses collections à sa propre histoire à transmettre, et il fait"
-" partager sa passion en and he loves the way each record adds to the "
-"story of his own collection."
 
 msgid "What does this condition mean?"
 msgstr "Que signifie cet Etat de l'article ?"
@@ -11090,6 +10997,9 @@ msgid ""
 msgstr ""
 "Que faire si j'ai payé cette facture, et que je dois annuler une commande"
 " Incluse sur cette même facture ?"
+
+msgid "What is the total amount you're refunding?"
+msgstr ""
 
 msgid "What to export"
 msgstr "Ce que vous pouvez exporter"
@@ -11104,7 +11014,7 @@ msgid "When I add a release to my collection"
 msgstr "Lorsque j'ajoute une référence à ma collection"
 
 msgid "When I add a release to my wantlist"
-msgstr "Lorsque j'ajoute une référence sur ma Wantlist "
+msgstr "Lorsque j'ajoute une référence sur ma Wantlist"
 
 msgid "When I post a review"
 msgstr "Quand je poste un Avis"
@@ -11159,7 +11069,7 @@ msgid "When one of my orders needs feedback"
 msgstr "Lorsqu'une de mes commandes a besoin d'une Evaluation"
 
 msgid "When one of my submissions is changed by another user"
-msgstr "Quand une de mes proposition a été changée par un autre utilisateur."
+msgstr "Quand une de mes Proposition a été changée par un autre utilisateur."
 
 msgid ""
 "When reporting this problem to Discogs Support or in the Discogs Help "
@@ -11182,7 +11092,7 @@ msgstr ""
 "participe"
 
 msgid "When there's an update to a release in my lists"
-msgstr "Lorsqu'il y a une mise à jour sur une référence disponible sur ma liste"
+msgstr "Lorsqu'il y a une mise à jour sur une Référence disponible sur ma liste"
 
 #, python-format
 msgid ""
@@ -11267,7 +11177,7 @@ msgid "With entire inventory"
 msgstr "Sur l'inventaire complet"
 
 msgid "With selected"
-msgstr "Sur les éléments sélectionnés"
+msgstr "Action sur la sėlection"
 
 msgid "Worst condition"
 msgstr "Moins bons Etats"
@@ -11411,7 +11321,7 @@ msgid ""
 "releases or one of these releases in your collection or wantlist."
 msgstr ""
 "Vous recevez ce message parce que vous êtes contributeur sur l'une de ces"
-" références ou une de ces références est dans votre collection votre "
+" Références ou une de ces Références est dans votre collection votre "
 "votre Wantlist."
 
 msgid "You can also change this information at any time on the "
@@ -11456,9 +11366,8 @@ msgstr ""
 msgid "You can now close this window."
 msgstr "Vous pouvez fermer cette fenêtre."
 
-#, fuzzy
 msgid "You can now list this item for sale!"
-msgstr "Vous pouvez maintenant mettre cet article pour la vente !"
+msgstr "Vous pouvez maintenant mettre cet article en vente !"
 
 msgid "You can now log in."
 msgstr "Vous pouvez désormais vous connecter."
@@ -11493,7 +11402,6 @@ msgid ""
 " href=\"%(order_url)s\">here</a>."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can view details on this order and correspond with the other party "
 "here"
@@ -11528,20 +11436,16 @@ msgstr "Vous pouvez voir vos achats en ligne sur"
 msgid "You can vote on the following pages:"
 msgstr " Vous pouvez voter sur les pages suivantes :"
 
-msgid "You can't delete this type of event."
-msgstr "Vous ne pouvez pas supprimer ce type d'événement."
-
 msgid "You cannot add yourself to your friends list."
 msgstr "Vous ne pouvez pas vous ajouter vous-même à votre liste d'amis."
 
 msgid "You cannot buy from yourself."
 msgstr "Vous ne pouvez pas acheté dans votre propre magasin."
 
-#, fuzzy
 msgid "You cannot cancel an order with removed items. Please contact support."
 msgstr ""
-"Vous ne pouvez pas annuler une commande avec des articles déjà supprimé. "
-"Merci de contacter notre support."
+"Vous ne pouvez pas annuler une commande avec des articles déjà supprimés."
+" Merci de contacter notre support."
 
 msgid "You cannot cancel this order at this time. Please contact support."
 msgstr ""
@@ -11557,11 +11461,7 @@ msgid ""
 "release form."
 msgstr ""
 "Vous ne pouvez pas éditer une image sur un Brouillon à partir de cette "
-"page. Merci d'utiliser le formulaire pour les Références. "
-
-#, fuzzy
-msgid "You cannot post while impersonating someone."
-msgstr "Vous ne pouvez pas poster tout en imitant quelqu'un"
+"page. Merci d'utiliser le formulaire pour les Références."
 
 msgid "You cannot remove all items from an order."
 msgstr "Vous ne pouvez pas supprimer tous les articles d'une commande"
@@ -11633,7 +11533,7 @@ msgstr ""
 "Vous n'acceptez pas les paiements PayPal. Les acheteurs n'ont pas la "
 "possibilité de vous payer une fois que vous avez accepté la commande."
 
-msgid "You do not have database submission priveleges."
+msgid "You do not have database submission privileges."
 msgstr ""
 
 msgid "You do not own that list."
@@ -11650,10 +11550,10 @@ msgstr ""
 "Vous n'avez pas encore créé de liste. <a href=\"%(link)s\"> Apprendre "
 "comment créer une liste</a>."
 
-#, fuzzy, python-format
+#, python-format
 msgid "You have %(n)d item in your cart"
 msgid_plural "You have %(n)d items in your cart"
-msgstr[0] "Vous avez %(n)d article dans votre panier "
+msgstr[0] "Vous avez %(n)d article dans votre panier"
 msgstr[1] "Vous avez %(n)d articles dans votre panier "
 
 msgid ""
@@ -11666,13 +11566,12 @@ msgstr ""
 msgid "You have <%= numberOfItems %> item in your cart"
 msgstr "Vous avez <%= numberOfItems %> article(s) dans votre panier "
 
-#, fuzzy
 msgid ""
 "You have <%= numberOfItems %> items from <%= numberOfSellers %> sellers "
 "in your cart"
 msgstr ""
 "Vous avez <%= numberOfItems %> article(s) de <%= numberOfSellers %> "
-"vendeur(s) dans votre panier"
+"vendeurs dans votre panier"
 
 msgid "You have <%= numberOfItems %> items in your cart"
 msgstr "Vous avez <%= numberOfItems %> article(s) dans votre panier "
@@ -11709,7 +11608,6 @@ msgstr "Vous avez déjà invité cet utilisateur."
 msgid "You have already left feedback on this order."
 msgstr "Vous avez déjà laissé une Evaluation sur cette commande. "
 
-#, fuzzy
 msgid ""
 "You have already reviewed this item. You can edit your existing review or"
 " post a comment."
@@ -11726,6 +11624,11 @@ msgstr ""
 "ventes potentielles, merci de bien vouloir régler cette facture en "
 "priorité avant le %(due)s."
 
+msgid ""
+"You have an upload currently being processed. Please wait for it to "
+"finish before uploading another."
+msgstr ""
+
 msgid "You have been granted voting rights at Discogs"
 msgstr "Vous avez été autorisé à voter sur Discogs "
 
@@ -11735,10 +11638,10 @@ msgstr "Vous avez été invité à rejoindre :"
 msgid "You have been logged out."
 msgstr "Vous vous avez été déconnecté."
 
-#, fuzzy, python-format
+#, python-format
 msgid "You have contributed <a href=\"%(link)s\">%(n)s release</a>"
 msgid_plural "You have contributed <a href=\"%(link)s\">%(n)s releases</a>"
-msgstr[0] "You have contributed <a href=\"%(link)s\">%(n)s release</a>"
+msgstr[0] "Vous avez contribué à <a href=\"%(link)s\">%(n)s Références</a>"
 msgstr[1] "You have contributed <a href=\"%(link)s\">%(n)s releases</a>"
 
 #, python-format
@@ -11805,7 +11708,7 @@ msgstr ""
 "Nous ne pouvons pas fermer votre compte, si vos ventes en cours ne sont "
 "pas terminées."
 
-#, fuzzy, python-format
+#, python-format
 msgid "You have reached the limit of %d list modules."
 msgstr "Vous avez atteint la limite de %d modules de listes."
 
@@ -11857,7 +11760,7 @@ msgid "You may download it at the following URL:"
 msgstr "Vous devez les télécharger à l'adresse URL suivante :"
 
 msgid "You may list one label as the parent of this label."
-msgstr "Vous devez listez un label comme Label Principal de ce label."
+msgstr "Vous devez indiquer un label comme Label Principal de ce label."
 
 msgid "You may only delete one master release per 24-hour period."
 msgstr ""
@@ -11870,6 +11773,9 @@ msgid ""
 msgstr ""
 "Vous devez poster un seul avis par article. Vous pouvez editer votre avis"
 " existant ou poster un commentaire."
+
+msgid "You may refund a maximum of {0}{1:.2f}."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -11953,7 +11859,6 @@ msgstr "Vous devez spécifier un code BIC/SWIFT ou IBAN"
 msgid "You need to log in to view this page."
 msgstr "Connectez-vous pour voir cette page."
 
-#, fuzzy
 msgid ""
 "You own the rights to the image and agree to make it available via a CC0 "
 "\"No Rights Reserved\" license."
@@ -12023,12 +11928,12 @@ msgstr ""
 
 msgid "You'll receive a credit towards selling after your create your account."
 msgstr ""
+"Vous recevrez un crédit de bienvenue en tant que Vendeur, après avoir "
+"créé votre compte."
 
 #, python-format
 msgid "You're not a member of any groups. <a href=\"%(link)s\">Get involved!</a>"
-msgstr ""
-"Vous n'êtes membre d'aucun groupes. <a href=\"%(link)s\">Impliquez-vous "
-"!</a>"
+msgstr "Vous n'êtes membre d'aucun groupes. <a href=\"%(link)s\">Participez !</a>"
 
 msgid ""
 "You're serious about your music&hellip; and we are, too.\n"
@@ -12044,6 +11949,11 @@ msgid "You've allowed these third-party applications to access your account."
 msgstr "Vous avez autorisé cette application tierce à accéder à votre compte."
 
 msgid ""
+"You've already refunded {0}{1:.2f}. You may refund a maximum of "
+"{0}{2:.2f} more."
+msgstr ""
+
+msgid ""
 "Your <strong>username</strong> will be displayed along with your rating "
 "and comments."
 msgstr ""
@@ -12056,7 +11966,6 @@ msgstr "Vos Applications."
 msgid "Your BIC/SWIFT"
 msgstr "Votre numéro BIC/SWIFT"
 
-#, fuzzy
 msgid "Your Cart has changed"
 msgstr "Votre panier a été modifié"
 
@@ -12080,7 +11989,6 @@ msgstr ""
 "Votre Commande sur la Marketplace Discogs #%(order_id)s chez %(seller)s a"
 " été mise à jour en incluant l'expédition.␣"
 
-#, fuzzy
 msgid "Your Discogs Marketplace account has been put on hold"
 msgstr "Votre Compte sur la Marketplace Discogs a été mis en attente"
 
@@ -12111,9 +12019,6 @@ msgstr "Votre compte PayPal n'est pas vérifié."
 
 msgid "Your PayPal email address"
 msgstr "Votre adresse e-mail PayPal"
-
-msgid "Your Recent Support Requests"
-msgstr "Vos demandes d'aide récentes"
 
 msgid "Your Shipping Address"
 msgstr "Votre adresse d'expédition."
@@ -12152,7 +12057,6 @@ msgstr ""
 "l'acheteur pour résoudre le litige. Une fois résolu, merci de nous le "
 "signaler. Nous examinerons alors vote compte afin de le réintégrer."
 
-#, fuzzy
 msgid ""
 "Your account has recently been restricted from participating in the "
 "Discogs\n"
@@ -12167,11 +12071,9 @@ msgstr "Votre compte ne sera PLUS récupérable."
 msgid "Your address:"
 msgstr "Votre adresse :"
 
-#, fuzzy
 msgid "Your application has been created."
 msgstr "Votre application a été créée."
 
-#, fuzzy
 msgid "Your bulk inventory action will run shortly."
 msgstr "L'action groupée sur votre inventaire va bientôt démarrer."
 
@@ -12224,7 +12126,7 @@ msgstr ""
 "Les informations de votre cartes de crédit sont transmises en mode "
 "crypté, de votre ordinateur à Discogs, et de Discogs à votre ordinateur. "
 "Les données transmises sont immédiatement effacées après le paiement, et "
-"ne sont jamais stockées sur un serveur. "
+"ne sont jamais stockées sur un serveur."
 
 #, python-format
 msgid "Your current e-mail address is %(email)s "
@@ -12302,8 +12204,8 @@ msgstr "Votre message a été envoyé."
 
 msgid "Your name and address will be provided to buyers who place an order."
 msgstr ""
-"Votre nom et votre adresse sera fourni aux acheteurs qui vous feront une "
-"commande."
+"Votre nom et votre adresse seront communiqués aux acheteurs qui vous "
+"feront une commande."
 
 msgid ""
 "Your name, e-mail address, mailing address, and order number will remain "
@@ -12350,7 +12252,7 @@ msgid ""
 "Your offer on <a href=\"%(orders_url)s\">%(item_desc)s</a> has been "
 "declined."
 msgstr ""
-"Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a été "
+"Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a été été "
 "déclinée."
 
 #, python-format
@@ -12358,12 +12260,12 @@ msgid ""
 "Your offer on <a href=\"%(orders_url)s\">%(item_desc)s</a> has expired\n"
 "because the user did not accept it within %(days)s days."
 msgstr ""
-"Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a expirée "
-"car l'utilisateur ne l'a pas acceptée sous le délai des %(days)s jours "
-"impartis."
+"Votre offre pour <a href=\"%(orders_url)s\">%(item_desc)s</a> a "
+"expiréecar l'utilisateur ne l'a pas acceptée sous le délai des %(days)s "
+"jours impartis."
 
 msgid "Your offer price must be lower than the listed price."
-msgstr "Le prix de votre offre doit être inférieur au prix de l'article listé."
+msgstr "Le prix de votre offre doit être inférieur au prix de l'article."
 
 msgid ""
 "Your password has been changed. You may now log in with your new "
@@ -12375,12 +12277,12 @@ msgstr ""
 msgid "Your recent Discogs password change"
 msgstr "Votre mot de passe Discogs a récemment changé"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Your recent request to perform bulk actions on your <a "
 "href=\"%(url)s\">inventory</a> has been completed."
 msgstr ""
-"Votre demande récente de téléchargement groupé de votre <a inventaire "
+"La demande récente de téléchargement groupé de votre <a inventaire "
 "href=\"%(url)s\"> </a> est terminée."
 
 msgid ""
@@ -12481,7 +12383,7 @@ msgstr "Ajouter une référence à votre collection ou votre Wantlist"
 
 #, python-format
 msgid "added %(release)s to collection."
-msgstr "a ajouté %(release)s a la collecte"
+msgstr "a ajouté %(release)s a la collection"
 
 #, python-format
 msgid "added %(release)s to their collection."
@@ -12489,7 +12391,7 @@ msgstr "ont ajouté %(release)s à leur collections."
 
 #, python-format
 msgid "added %(release)s to their wantlist."
-msgstr "a ajouté %(release)s à leurs Wantlist."
+msgstr "a ajouté %(release)s à sa Wantlist."
 
 #, python-format
 msgid "added %(release)s to wantlist."
@@ -12560,12 +12462,8 @@ msgstr "changer la devise"
 msgid "changed"
 msgstr "changé"
 
-#, fuzzy
 msgid "changed the order status to"
 msgstr "a modifié le statut de la commande comme"
-
-msgid "check your inbox for further instructions."
-msgstr "vérifier votre boîte de réception pour plus d'instructions."
 
 msgid "clear search"
 msgstr "supprimer la recherche"
@@ -12573,20 +12471,11 @@ msgstr "supprimer la recherche"
 msgid "click here"
 msgstr "cliquez ici"
 
-msgid "collection"
-msgstr "collection"
-
 msgid "contact the seller"
 msgstr "contactez le vendeur"
 
 msgid "contributions"
 msgstr ""
-
-msgid "created the order"
-msgstr "a créé la commande"
-
-msgid "created the order by merging"
-msgstr "a créé la commande en groupant"
 
 msgid ""
 "d) Please review all seller information and policies and decide if you "
@@ -12632,7 +12521,6 @@ msgstr "Par exemple, très bon état, coins légérement abimés, aucune rayures
 msgid "e.g. Quick response, fast service, good communication"
 msgstr "Par exemple, réponse rapide, service efficace, bonne communication..."
 
-#, fuzzy
 msgid "e.g. Upper Stacks - Aisle 5 Row 4"
 msgstr "Par exemple : Etagères du haut - Rangée 5, colonne 4"
 
@@ -12659,7 +12547,7 @@ msgstr "pour"
 
 #, python-format
 msgid "for &quot;%(name)s&quot; folder"
-msgstr ""
+msgstr "pour le dossier quot;%(name)s&quot;"
 
 msgid "for sale"
 msgstr "en vente"
@@ -12682,7 +12570,7 @@ msgid "from %(year)s"
 msgstr "à partir de %(year)s"
 
 msgid "from <%- seller %> at no additional cost!"
-msgstr ""
+msgstr "sur le shop de <%- seller %> sans frais d'expédition supplémentaires.\n"
 
 #, fuzzy, python-format
 msgid "from the %(decade)ss"
@@ -12706,9 +12594,6 @@ msgstr "a"
 msgid "here"
 msgstr "ici"
 
-msgid "if you can't find what you're looking for."
-msgstr "si vous ne trouvez pas ce que vous cherchez."
-
 msgid "in"
 msgstr "dans"
 
@@ -12729,9 +12614,6 @@ msgstr[1] "articles"
 msgid "items"
 msgstr "articles"
 
-msgid "items in the Discogs marketplace."
-msgstr "articles sur la Marketplace Discogs."
-
 msgid "jobs"
 msgstr "jobs"
 
@@ -12739,7 +12621,7 @@ msgid "labels"
 msgstr "labels"
 
 msgid "listed for sale in my inventory"
-msgstr "mis en vente dans mon inventaire"
+msgstr "articles mis en vente dans mon inventaire"
 
 msgid "logged in"
 msgstr "Connecté"
@@ -12751,11 +12633,9 @@ msgstr "majeur"
 msgid "marked for removal"
 msgstr "sélectionné pour suppression"
 
-#, fuzzy
 msgid "matched"
 msgstr "correspond"
 
-#, fuzzy
 msgid "matching"
 msgstr "correspondant à"
 
@@ -12767,10 +12647,6 @@ msgstr "membres l'ont."
 
 msgid "members want this"
 msgstr "membres veulent celui-ci"
-
-#, fuzzy
-msgid "merged this order into"
-msgstr "a groupé la commande dans"
 
 msgid "minor"
 msgstr "mineur"
@@ -12788,13 +12664,12 @@ msgstr "plus sur la Markeplace Discogs"
 msgid "move to comment/vote form"
 msgstr "aller aux commentaire/formulaire de vote"
 
-#, fuzzy
 msgid "move to next submission"
-msgstr "Aller à la prochaine proposition"
+msgstr "Aller à la prochaine Proposition"
 
 #, fuzzy
 msgid "move to previous submission"
-msgstr "Aller à la proposition précédente"
+msgstr "Aller à la Proposition précédente"
 
 #, fuzzy
 msgid "move to top of history"
@@ -12888,9 +12763,6 @@ msgstr "références"
 msgid "remove"
 msgstr "Supprimer"
 
-msgid "removed"
-msgstr "Supprimé"
-
 msgid "replies"
 msgstr "Réponses"
 
@@ -12902,7 +12774,7 @@ msgid "rows"
 msgstr "colonnes"
 
 msgid "save submission / don't save submission"
-msgstr "Sauvegarder la proposition / Ne pas sauvegarder la proposition "
+msgstr "Sauvegarder la Proposition / Ne pas sauvegarder la Proposition "
 
 #, fuzzy
 msgid "select Complete and Correct"
@@ -12920,15 +12792,8 @@ msgstr "a sélectionné \"Nécessite Modifications Majeures\""
 msgid "select Needs Minor Changes"
 msgstr "a sélectionné \"Nécessite Modifications Mineures\""
 
-msgid "sell"
-msgstr "vendre"
-
-#, fuzzy
 msgid "seller's terms"
-msgstr "règle du vendeur"
-
-msgid "set the shipping price to"
-msgstr "a ajusté le prix d'expédition à"
+msgstr "règles du Vendeur"
 
 msgid "shipping"
 msgstr "Expédition"
@@ -12944,6 +12809,9 @@ msgid_plural "submissions pending"
 msgstr[0] "Proposition en attente"
 msgstr[1] "Propositions en attente"
 
+msgid "submissions"
+msgstr ""
+
 msgid "submitted"
 msgstr "envoyé"
 
@@ -12953,9 +12821,8 @@ msgstr "Equipe"
 msgid "that has since been deleted"
 msgstr "a été supprimé depuis"
 
-#, fuzzy
 msgid "that has since been deleted."
-msgstr "a été supprimé depuis"
+msgstr "a été supprimé depuis."
 
 msgid "to"
 msgstr "à"
@@ -13005,18 +12872,13 @@ msgid "via the order page."
 msgstr "Via la page de commande."
 
 msgid "vote"
-msgstr ""
+msgstr "voter"
 
-#, fuzzy
 msgid "want"
-msgstr "le veulent"
+msgstr "Celui qui le veut :"
 
-msgid "wantlist"
-msgstr "Wantlist"
-
-#, fuzzy
 msgid "wants"
-msgstr "le veulent"
+msgstr "Ceux qui le veulent :"
 
 msgid "weight"
 msgstr "poids"

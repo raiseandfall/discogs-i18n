@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: V2 messages_js.po\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-03-05 09:11-0800\n"
+"POT-Creation-Date: 2015-03-24 14:50-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -69,6 +69,9 @@ msgstr "Ajouter un sous-titre"
 msgid "Add Tracks"
 msgstr "Ajouter des titres"
 
+msgid "Add a module"
+msgstr ""
+
 msgid "Add artist"
 msgstr "Ajouter un artiste"
 
@@ -126,7 +129,7 @@ msgid "Are you certain you would like to delete this review?"
 msgstr "Etes-vous sûr de vouloir supprimer cet avis ?"
 
 msgid "Are you sure you want to DELETE the items?"
-msgstr "Êtes-vous sûr de vouloir SUPPRIMER les articles ?"
+msgstr "Etes-vous sûr de vouloir SUPPRIMER cet article ?"
 
 msgid "Are you sure you want to delete this list?"
 msgstr "Etes-vous sûr de vouloir supprimer cette liste ?"
@@ -135,10 +138,10 @@ msgid "Are you sure you want to remove <%= text %>?"
 msgstr "Etes-vous sûr de vouloir supprimer <%= text %>?"
 
 msgid "Are you sure you want to remove these items?"
-msgstr "Êtes-vous sûr de vouloir supprimer ces articles ?"
+msgstr "Etes-vous sûr de vouloir supprimer ces articles ?"
 
 msgid "Are you sure you want to remove this item?"
-msgstr "Êtes-vous sûr de vouloir supprimer cet article ?"
+msgstr "Etes-vous sûr de vouloir supprimer cet article ?"
 
 msgid "Are you sure you want to un-share this?"
 msgstr "Etes-vous sûr de ne plus vouloir le partager ?"
@@ -190,11 +193,17 @@ msgstr "Numéro de catalogue"
 msgid "Change"
 msgstr "Changer"
 
+msgid "Check our Twitter feed for updates"
+msgstr ""
+
 msgid "Checking"
 msgstr "Vérification"
 
 msgid "Click <%= saveButton => again to save anyway."
 msgstr "Cliquez de nouveau sur <%= saveButton => pour sauvegarder."
+
+msgid "Click to choose file"
+msgstr ""
 
 msgid "Close"
 msgstr "Fermer"
@@ -245,6 +254,9 @@ msgstr "Alerte Discogs"
 msgid "Does not exist: <%= id %>"
 msgstr "Il n'existe pas de : <%= id %>"
 
+msgid "Drag and drop file or click to browse"
+msgstr ""
+
 msgid "Edit Draft"
 msgstr "Modifier brouillon"
 
@@ -290,8 +302,14 @@ msgstr "Generation de l'aperçu"
 msgid "Genres"
 msgstr "Genres"
 
+msgid "Get help"
+msgstr ""
+
 msgid "Heading"
 msgstr "Titre"
+
+msgid "Help!"
+msgstr ""
 
 msgid "Hide Credits"
 msgstr "Masquer les crédits"
@@ -368,7 +386,7 @@ msgid "Move"
 msgstr "Déplacer"
 
 msgid "Move Item to:"
-msgstr "Déplacer l'article vers:"
+msgstr "Déplacer l'article vers :"
 
 msgid "Name"
 msgstr "Nom"
@@ -620,11 +638,20 @@ msgstr "Enregistrement en cours"
 msgid "Saving Draft"
 msgstr "Sauvegarde du brouillon"
 
+msgid "Search"
+msgstr ""
+
+msgid "Search artists, albums and more..."
+msgstr ""
+
 msgid "Search in new window"
 msgstr "Rechercher dans une nouvelle fenêtre"
 
 msgid "Send Feedback"
 msgstr "Evaluation envoyée"
+
+msgid "Send Refund"
+msgstr ""
 
 msgid "Share"
 msgstr "Partager"
@@ -663,6 +690,9 @@ msgstr ""
 " pas d'abord le lecteur YouTube en appuyant dessus. Si la vidéo ne se "
 "charge pas , actualisez la page, puis appuyez sur le player."
 
+msgid "Sorry, this page could not be found."
+msgstr ""
+
 msgid "Strict Search"
 msgstr "Recherche stricte"
 
@@ -678,9 +708,8 @@ msgstr "Formulaire de suggestions pour les raccourcis clavier"
 msgid "Submission Notes"
 msgstr "Notes de soumission"
 
-#, fuzzy
 msgid "Submission notes are required"
-msgstr "Les remarques sur la proposition sont requises."
+msgstr "Les notes sur la proposition sont requises."
 
 msgid "Submit"
 msgstr "Soumettre"
@@ -690,7 +719,7 @@ msgid ""
 "Surface noise will be evident upon playing... but will not overpower the "
 "music. Groove wear will start to be noticeable, as will light scratches."
 msgstr ""
-"La qualité sonore lors de la lecture sera légèrement affectée... mais "
+"La qualité sonore lors de la lecture sera légèrement affectée mais "
 "n'atténuera pas la musique. L'usure des sillons commence à être "
 "perceptible en raisons de rayures lumineuses."
 
@@ -703,7 +732,7 @@ msgid "The following artists are new to the database"
 msgstr "Les artistes suivants sont nouveaux dans la base de données"
 
 msgid "The following errors preventing this item from being listed"
-msgstr "Les erreurs suivantes empêchent cet item d'être listé"
+msgstr "Les erreurs suivantes empêchent cet article d'être listé"
 
 msgid "The following labels/companies are new to the database"
 msgstr "Les labels / entreprises suivantes sont nouveaux dans la base de données"
@@ -756,6 +785,9 @@ msgstr "Partage en cours de désactivation..."
 
 msgid "Update Order"
 msgstr "Mettre à jour la commande"
+
+msgid "Upload CSV File"
+msgstr ""
 
 msgid "View Image"
 msgstr "Voir l'image"
@@ -844,6 +876,9 @@ msgstr ""
 msgid "about"
 msgstr "A propos"
 
+msgid "additions"
+msgstr ""
+
 msgid "all versions"
 msgstr "toutes les versions"
 
@@ -856,8 +891,14 @@ msgstr "à"
 msgid "barcode or other identifier"
 msgstr "code-barres ou autre identifiant"
 
+msgid "changes"
+msgstr ""
+
 msgid "credit"
 msgstr "crédit"
+
+msgid "deletions"
+msgstr ""
 
 msgid "format"
 msgstr "format"
