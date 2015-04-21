@@ -857,7 +857,7 @@ msgstr "Activité depuis le"
 
 #, python-format
 msgid "Activity through %(activity_end)s"
-msgstr "Activité depuis le %(activité_end)s"
+msgstr "Activité depuis le %(activity_end)s"
 
 msgid "Ad-Blocked Releases"
 msgstr ""
@@ -10631,7 +10631,7 @@ msgid ""
 " due\n"
 "to their activity."
 msgstr ""
-"Nous vous contactons afin de vous informer que le vendeur % (username)s "
+"Nous vous contactons afin de vous informer que le vendeur %(username)s "
 "chez lequel vous avez passé une commande a été identifié comme étant "
 "défaillant sur le suivi des commandes, ou peut être soupçonné "
 "d'opérations frauduleuses sur la Marketplace. Le compte de ce vendeur est"
